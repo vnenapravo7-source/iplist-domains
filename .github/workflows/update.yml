@@ -44,14 +44,14 @@ jobs:
 
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=instagram.com" "inst-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=whatsapp.com" "wa-ip.txt"
-          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-test-ip.txt"
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add inst-ip.txt wa-ip.txt yt-ip.txt
+          git add inst-ip.txt wa-ip.txt yt-test-ip.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
