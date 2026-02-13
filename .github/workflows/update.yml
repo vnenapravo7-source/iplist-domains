@@ -1,0 +1,61 @@
+name: Update IP Lists
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update IP files with retry logic
+        run: |
+          update_file () {
+            URL=$1
+            FILE=$2
+            TEMP="${FILE}.new"
+
+            echo "Updating $FILE from $URL"
+
+            for i in 1 2 3; do
+              echo "Attempt $i..."
+              if curl -fsSL --connect-timeout 15 --max-time 60 "$URL" -o "$TEMP"; then
+                if [ -s "$TEMP" ]; then
+                  mv "$TEMP" "$FILE"
+                  echo "Updated $FILE successfully"
+                  return 0
+                fi
+              fi
+
+              if [ "$i" -lt 3 ]; then
+                echo "Retrying in 15 minutes..."
+                sleep 900
+              fi
+            done
+
+            echo "Failed to update $FILE. Keeping old version."
+            rm -f "$TEMP"
+          }
+
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=instagram.com" "inst-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=whatsapp.com" "wa-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-ip.txt"
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add inst-ip.txt wa-ip.txt yt-ip.txt
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update IP lists"
+            git push
+          else
+            echo "No changes detected"
+          fi
