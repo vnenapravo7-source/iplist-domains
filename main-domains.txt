@@ -1,5 +1,7 @@
 bftactics.com
 
+technical.city
+
 build-artifacts.signal.org
 cdn-ca.signal.org
 cdn.signal.org
