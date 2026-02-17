@@ -146,3 +146,4 @@ image.themoviedb.org
 images.themoviedb.org
 tmdb.cub.red
 cub.red
+gokino.su
