@@ -133,3 +133,16 @@ oaiusercontent.com
 archiveofourown.org
 ficbook.net
 fanfiction.net
+
+
+canva.com
+tmdb.org
+api.tmdb.org
+image.tmdb.org
+images.tmdb.org
+api.themoviedb.org
+themoviedb.org
+image.themoviedb.org
+images.themoviedb.org
+tmdb.cub.red
+cub.red
