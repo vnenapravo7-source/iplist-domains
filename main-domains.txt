@@ -184,3 +184,8 @@ studio.youtube.com
 tv.youtube.com
 yt3.googleusercontent.com
 yting.com
+
+ciscobinary.openh264.org
+openh264.org
+www.openh264.org
+codecs.fedoraproject.org
