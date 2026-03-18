@@ -42,16 +42,25 @@ jobs:
             rm -f "$TEMP"
           }
 
-          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=instagram.com" "inst-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com" "inst-domains.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=instagram.com" "inst-ip.txt"   
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=whatsapp.com" "wa-domains.txt"          
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=whatsapp.com" "wa-ip.txt"
-          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-test-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=youtube.com" "yt-domains.txt"          
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=pornhub.com&site=xhamster.com&site=xvideos.com&site=rule34.xxx" "pron-domains.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=pornhub.com&site=xhamster.com&site=xvideos.com&site=rule34.xxx" "pron-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=rutor.info&site=rutracker.org" "rutor-rutracker-domains.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=rutor.info&site=rutracker.org" "rutor-rutracker-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=spotify.com" "spotify-domains.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=spotify.com" "spotify-ip.txt"
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add inst-ip.txt wa-ip.txt yt-test-ip.txt
+          git add inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
