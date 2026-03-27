@@ -1,0 +1,7 @@
+simpcity.is
+simpcity.su
+simpcity.cr
+turbo.cr
+bunkr.cr
+jpg6.su
+jpg5.su
