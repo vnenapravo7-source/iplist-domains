@@ -45,6 +45,10 @@ updates.signal.org
 updates2.signal.org
 www.signal.org
 
+simpcity.is
+simpcity.su
+simpcity.cr
+
 x.sex-studentki.sale
 sex-studentki.sale
 sex-studentki.live
