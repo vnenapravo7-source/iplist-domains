@@ -54,13 +54,15 @@ jobs:
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=rutor.info&site=rutracker.org" "rutor-rutracker-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=spotify.com" "spotify-domains.txt"
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=spotify.com" "spotify-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=telegram.org" "tg-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=domains&site=telegram.org" "tg-domains.txt"          
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
+          git add tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
