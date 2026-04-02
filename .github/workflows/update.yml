@@ -64,7 +64,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git anime-ip.txt anime-domains.txt add tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
+          git add anime-ip.txt anime-domains.txt tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
