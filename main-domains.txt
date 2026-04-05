@@ -130,3 +130,4 @@ plugins.deckbrew.xyz
 testing.deckbrew.xyz
 deckthemes.com
 motherless.com
+deckbrew.xyz
