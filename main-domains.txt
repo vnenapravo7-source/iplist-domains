@@ -134,7 +134,6 @@ jsdelivr.net
 jquery.com
 tzatzikiweeb.moe
 deckthemes.com
-deckthemes.com
 deckbrew.xyz
 nic.xyz
 
