@@ -125,3 +125,8 @@ ciscobinary.openh264.org
 openh264.org
 www.openh264.org
 codecs.fedoraproject.org
+
+plugins.deckbrew.xyz
+testing.deckbrew.xyz
+deckthemes.com
+motherless.com
