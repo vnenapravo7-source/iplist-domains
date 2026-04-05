@@ -128,16 +128,6 @@ codecs.fedoraproject.org
 
 capcut.com
 
-plugins.deckbrew.xyz
-testing.deckbrew.xyz
-jsdelivr.net
-jquery.com
-tzatzikiweeb.moe
-deckthemes.com
-deckbrew.xyz
-nic.xyz
-
-gstatic.com
 
 motherless.com
 motherlessmedia.com
