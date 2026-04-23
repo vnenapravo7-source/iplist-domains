@@ -58,13 +58,15 @@ jobs:
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=telegram.org" "tg-domains.txt"      
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=amedia.site&site=anidub.pro&site=anilibria.tv&site=animego.org&site=animevost.org&site=bato.to&site=crunchyroll.com&site=hentailib.me&site=jut.su&site=kara.su&site=kodik.info&site=mangahub.ru&site=mangapark.net&site=nyaa.land&site=nyaa.si&site=shikimori.one&site=yummyanime.tv" "anime-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=amedia.site&site=anidub.pro&site=anilibria.tv&site=animego.org&site=animevost.org&site=bato.to&site=crunchyroll.com&site=hentailib.me&site=jut.su&site=kara.su&site=kodik.info&site=mangahub.ru&site=mangapark.net&site=nyaa.land&site=nyaa.si&site=shikimori.one&site=yummyanime.tv" "anime-domains.txt"      
-
+          update_file "https://beta.iplist.opencck.org/?format=text&data=cidr4&site=github.com" "github-ip.txt"
+          update_file "https://beta.iplist.opencck.org/?format=text&data=domains&site=github.com" "github-domains.txt"      
+          
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add anime-ip.txt anime-domains.txt tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
+          git add github-ip.txt github-domains.txt anime-ip.txt anime-domains.txt tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
