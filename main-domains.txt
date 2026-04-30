@@ -52,6 +52,7 @@ sex-studentki.live
 ru.sex-studentki.guru
 sex-studentki.love
 ru.sex-studentki.dev
+ru.sex-studentki.cafe
 
 4pda.to
 
@@ -154,3 +155,7 @@ event.bblmw.com
 bblcdn.com
 bambulab.com
 
+turbo.cr
+bunkr.cr
+jpg6.su
+jpg5.su
