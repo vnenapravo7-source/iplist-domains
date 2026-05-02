@@ -141,19 +141,7 @@ daftporn.com
 clickadu.net
 gukahdbam.com
 
-store.bambulab.com
-store-fe.bblcdn.com
-store.bblcdn.com
-makerworld.com
-makerworld.bblmw.com
-public-cdn.bblmw.com
-static.cloudflareinsights.com
-www.googletagmanager.com
-consent.trustarc.com
-cdnjs.cloudflare.com
-event.bblmw.com
-bblcdn.com
-bambulab.com
+
 
 turbo.cr
 bunkr.cr
