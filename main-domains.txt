@@ -129,7 +129,6 @@ codecs.fedoraproject.org
 
 capcut.com
 
-
 motherless.com
 motherlessmedia.com
 cloudflare.com
@@ -141,8 +140,6 @@ daftporn.com
 clickadu.net
 gukahdbam.com
 
-
-
 turbo.cr
 bunkr.cr
 jpg6.su
@@ -151,3 +148,16 @@ filester.sh
 
 deadlockmods.app
 madamevorger.com
+
+makerworld.com
+static.cloudflareinsights.com
+www.googletagmanager.com
+consent.trustarc.com
+cdnjs.cloudflare.com
+public-cdn.bblmw.com
+makerworld.bblmw.com
+cdn1.bambulab.com
+or-cloud-makerlab-prod.s3.dualstack.us-west-2.amazonaws.com
+event.bblmw.com
+bblmw.com
+bambulab.com
