@@ -146,7 +146,6 @@ jpg6.su
 jpg5.su
 filester.sh
 
-deadlockmods.app
 madamevorger.com
 
 makerworld.com
@@ -164,3 +163,15 @@ bambulab.com
 
 netgrid.host
 billing.netgrid.host
+
+cdn.intergient.com
+btloader.com
+webfiles.gamebanana.com
+fonts.googleapis.com
+images.gamebanana.com
+ajax.googleapis.com
+www.googletagmanager.com
+secure.quantserve.com
+gamebanana.com
+cdnjs.cloudflare.com
+deadlockmods.app
