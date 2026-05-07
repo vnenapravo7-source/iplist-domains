@@ -161,3 +161,5 @@ or-cloud-makerlab-prod.s3.dualstack.us-west-2.amazonaws.com
 event.bblmw.com
 bblmw.com
 bambulab.com
+
+netgrid.host
