@@ -148,3 +148,6 @@ bunkr.cr
 jpg6.su
 jpg5.su
 filester.sh
+
+deadlockmods.app
+madamevorger.com
