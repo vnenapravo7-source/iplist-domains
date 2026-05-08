@@ -4,3 +4,5 @@ simpcity.cr
 turbostats.xyz
 simpcity.rs
 simp6.selti-delivery.ru
+check.ddos-guard.net
+ddos-guard.net
