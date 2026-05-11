@@ -175,3 +175,8 @@ secure.quantserve.com
 gamebanana.com
 cdnjs.cloudflare.com
 deadlockmods.app
+
+ososedki.com
+media.ososedki.com
+a.realsrv.com
+a.magsrv.com
