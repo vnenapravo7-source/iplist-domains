@@ -194,11 +194,17 @@ creative.mavrtracktor.com
 api.telegram.org
 telegram.org
 t.me
-t.me
 tdesktop.com
 wallet.telegram.org
 ton.org
 tonapi.io
+fragment.com
+tonkeeper.com
+walletbot.me
+mytonwallet.io
+tonhubapi.com
+tonusercontent.com
+
 
 accounts.x.ai
 www.gstatic.com
