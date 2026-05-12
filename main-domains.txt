@@ -199,3 +199,5 @@ tdesktop.com
 wallet.telegram.org
 ton.org
 tonapi.io
+
+accounts.x.ai
