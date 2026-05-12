@@ -201,3 +201,9 @@ ton.org
 tonapi.io
 
 accounts.x.ai
+www.gstatic.com
+lh3.googleusercontent.com
+fonts.gstatic.com
+accounts.youtube.com
+accounts.google.com
+play.google.com
