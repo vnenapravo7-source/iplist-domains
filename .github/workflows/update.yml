@@ -70,6 +70,7 @@ jobs:
           update_file "https://beta.iplist.opencck.org/?format=text&data=ip4&site=google%40google-gemini&site=google%40google-play&site=google%40gemini&site=google%40google-registry" "ggl-ip.txt"
           update_file "https://beta.iplist.opencck.org/?format=text&data=domains&site=twitch.tv" "ttv-domains.txt"
           update_file "https://beta.iplist.opencck.org/?format=text&data=ip4&site=twitch.tv" "ttv-ip.txt"
+          
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
