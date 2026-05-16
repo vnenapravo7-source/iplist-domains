@@ -45,7 +45,7 @@ jobs:
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com" "inst-domains.txt"
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=instagram.com" "inst-ip.txt"   
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=whatsapp.com" "wa-domains.txt"          
-          # update_file "https://iplist.opencck.org/?format=text&data=ip4&site=whatsapp.com" "wa-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=whatsapp.com" "wa-ip.txt"
           # update_file "https://iplist.opencck.org/?format=text&data=domains&site=youtube.com" "yt-domains.txt"          
           # update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&site=pornhub.com&site=xhamster.com&site=xvideos.com&site=rule34.xxx" "pron-domains.txt"
