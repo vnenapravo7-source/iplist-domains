@@ -2364,3 +2364,15 @@ fonts.gstatic.com
 accounts.youtube.com
 accounts.google.com
 play.google.com
+
+
+docs.google.com
+fonts.googleapis.com
+lh3.google.com
+ssl.gstatic.com
+fonts.gstatic.com
+gstatic.com
+ogads-pa.clients6.google.com
+waa-pa.clients6.google.com
+clients6.google.com
+apis.google.com
