@@ -2,6 +2,7 @@
 a-api.anthropic.com
 a-cdn.anthropic.com
 ab.chatgpt.com
+academy.claude.com
 acctcdnmsftuswe2.azureedge.net
 acctcdnvzeuno.azureedge.net
 admin.i.perplexity.ai
@@ -38,6 +39,7 @@ argocd-test.i.perplexity.ai
 asi-admin.i.perplexity.ai
 asi.i.perplexity.ai
 asia-south1-livekit.grok.com
+assets-proxy.anthropic.com
 assets.grok.com
 assets.x.ai
 assistant.femetrics.grammarly.io
@@ -106,8 +108,10 @@ chatgpt-async-webps-staging-southcentralus-0.chatgpt.com
 chatgpt.com
 chunk-composing.canva.com
 claude.ai
+claude.com
 claudeusercontent.com
 clearance.deepl.com
+code.claude.com
 comet-feedback.perplexity.ai
 comet-framer-prod.perplexity.ai
 comet.perplexity.ai
@@ -116,6 +120,7 @@ community.openai.com
 community.perplexity.ai
 console-testing.i.perplexity.ai
 console.anthropic.com
+console.claude.com
 console.perplexity.ai
 console.x.ai
 contest.openai.com
@@ -139,11 +144,14 @@ developers.openai.com
 dict-audio.deepl.com
 discover-audio.perplexity.ai
 discuss.openai.com
+docs.claude.com
 docs.perplexity.ai
 docs.pollo.ai
 docs.x.ai
 document-export.canva.com
+downloads.claude.com
 downloads.intercomcdn.com
+downloads.preview.claude.com
 dox.grammarly.com
 dual-a-0001.a-msedge.net
 eagle.sapphire.microsoftapp.net
@@ -174,8 +182,10 @@ files.oaiusercontent.com
 font-public.canva.com
 fpt2.microsoft.com
 gateway.bingviz.microsoftapp.net
+gcal.mcp.claude.com
 githubcopilot.com
 global-api.kilo.ai
+gmail.mcp.claude.com
 gnar.grammarly.com
 go.grammarly.com
 goldengate.grammarly.com
@@ -187,6 +197,7 @@ grok.x.ai
 gtm.deepl.com
 gym.openai.com
 handbook.kilo.ai
+hcls.mcp.claude.com
 help.elevenlabs.io
 help.openai.com
 hiworkflow.pollo.ai
@@ -210,6 +221,7 @@ labs.perplexity.ai
 learn.kilo.ai
 lgincdnmsftuswe2.azureedge.net
 lgincdnvzeuno.azureedge.net
+links.email.claude.com
 livekit.grok.com
 location.microsoft.com
 login-test.kilo.ai
@@ -220,6 +232,7 @@ media-public.canva.com
 media.canva.com
 messenger-apps.intercom.io
 microscope.openai.com
+microsoft365.mcp.claude.com
 mobile.events.data.microsoft.com
 network-visual-dev.i.perplexity.ai
 nexus-websocket-a.intercom.io
@@ -236,6 +249,7 @@ payload.elevenlabs.io
 perplexity-ai.cloudflareaccess.com
 perplexity.ai
 platform.api.openai.com
+platform.claude.com
 platform.openai.com
 podcast.perplexity.ai
 pollo.ai
@@ -247,9 +261,12 @@ pplx-next-static-public.perplexity.ai
 pplx-restricted-static.perplexity.ai
 pplx-sidecar-v2.perplexity.ai
 presentpicker-framer-prod.perplexity.ai
+preview.claude.com
 preview.i.perplexity.ai
 privacy-pass-issuer.api.chatgpt.com
+privacy.claude.com
 productmanagers-prod-framer.perplexity.ai
+pubmed.mcp.claude.com
 r2cdn.perplexity.ai
 realtime.chatgpt.com
 research.perplexity.ai
@@ -262,12 +279,14 @@ self.events.data.microsoft.com
 services.bingapis.com
 skiafy.i.perplexity.ai
 sl.deepl.com
+slack-channel.mcp.claude.com
 social.perplexity.ai
 sonar.perplexity.ai
 sora.chatgpt.com
 spinningup.openai.com
 ssff.grok.com
 st.perplexity.ai
+staging.claude.com
 static-web.grammarly.com
 static.canva.com
 static.deepl.com
@@ -276,6 +295,7 @@ static.i.perplexity.ai
 static.intercomassets.com
 statsig.anthropic.com
 status.anthropic.com
+status.claude.com
 status.kilo.ai
 status.perplexity.ai
 status.x.ai
@@ -283,6 +303,7 @@ stripe.perplexity.ai
 subscription.grammarly.com
 suggest.perplexity.ai
 support.anthropic.com
+support.claude.com
 support.deepl.com
 sydney.bing.com
 tags.pollo.ai
@@ -302,6 +323,7 @@ try.elevenlabs.io
 typeahead.grok.com
 ui.i.perplexity.ai
 universe.openai.com
+url6377.updates.claude.com
 us-central1-xi-labs.cloudfunctions.net
 us-east-1.api.x.ai
 us-east-4-raw.api.x.ai
@@ -314,12 +336,15 @@ w.deepl.com
 webchannel-alkalimakersuite-pa.clients6.google.com
 webrtc-staging.chatgpt.com
 webrtc.chatgpt.com
+website.claude.com
+websitemain.claude.com
 widget.intercom.io
 ws.chatgpt.com
 www.anthropic.com
 www.canva.com
 www.chatgpt.com
 www.claude.ai
+www.claude.com
 www.claudeusercontent.com
 www.deepl.com
 www.elevenlabs.io
