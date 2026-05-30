@@ -2378,6 +2378,9 @@ clients6.google.com
 apis.google.com
 
 head.protondb.pages.dev
-www.protondb.com
-www.googletagmanager.com
+protondb.com
+googletagmanager.com
 steamcdn-a.akamaihd.net
+akamaihd.net
+protondb.pages.dev
+pages.dev
