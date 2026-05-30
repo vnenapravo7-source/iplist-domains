@@ -2376,12 +2376,3 @@ ogads-pa.clients6.google.com
 waa-pa.clients6.google.com
 clients6.google.com
 apis.google.com
-
-head.protondb.pages.dev
-protondb.com
-www.protondb.com
-googletagmanager.com
-steamcdn-a.akamaihd.net
-akamaihd.net
-protondb.pages.dev
-pages.dev
