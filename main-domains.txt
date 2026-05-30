@@ -2379,6 +2379,7 @@ apis.google.com
 
 head.protondb.pages.dev
 protondb.com
+www.protondb.com
 googletagmanager.com
 steamcdn-a.akamaihd.net
 akamaihd.net
