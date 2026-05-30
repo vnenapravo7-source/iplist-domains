@@ -2376,3 +2376,8 @@ ogads-pa.clients6.google.com
 waa-pa.clients6.google.com
 clients6.google.com
 apis.google.com
+
+head.protondb.pages.dev
+www.protondb.com
+www.googletagmanager.com
+steamcdn-a.akamaihd.net
