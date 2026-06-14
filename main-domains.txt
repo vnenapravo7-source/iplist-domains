@@ -2362,3 +2362,14 @@ ogads-pa.clients6.google.com
 waa-pa.clients6.google.com
 clients6.google.com
 apis.google.com
+
+api.telegram.org
+wallet.telegram.org
+ton.org
+tonapi.io
+fragment.com
+tonkeeper.com
+walletbot.me
+mytonwallet.io
+tonhubapi.com
+tonusercontent.com
