@@ -2343,9 +2343,6 @@ ka-f.fontawesome.com
 creative.mavrtracktor.com
 
 api.telegram.org
-telegram.org
-t.me
-tdesktop.com
 wallet.telegram.org
 ton.org
 tonapi.io
