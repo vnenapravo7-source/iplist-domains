@@ -2373,3 +2373,9 @@ walletbot.me
 mytonwallet.io
 tonhubapi.com
 tonusercontent.com
+
+static.boosty.to
+images.boosty.to
+top-fwz1.mail.ru
+api.boosty.to
+boosty.to
