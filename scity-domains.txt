@@ -6,3 +6,8 @@ simpcity.rs
 simp6.selti-delivery.ru
 check.ddos-guard.net
 ddos-guard.net
+cdn.tailwindcss.com
+cdn.jsdelivr.net
+stackpath.bootstrapcdn.com
+turbo.cr
+bob.tinyns.me
