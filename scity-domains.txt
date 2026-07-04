@@ -9,3 +9,5 @@ ddos-guard.net
 cdn.tailwindcss.com
 cdn.jsdelivr.net
 stackpath.bootstrapcdn.com
+turbo.cr
+bob.tinyns.me
