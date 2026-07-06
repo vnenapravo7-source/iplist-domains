@@ -2379,3 +2379,8 @@ images.boosty.to
 top-fwz1.mail.ru
 api.boosty.to
 boosty.to
+
+draft.deadlock.pro.br
+pro.br
+deadlock.pro.br
+deadlock.pro
