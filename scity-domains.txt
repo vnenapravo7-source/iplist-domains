@@ -11,3 +11,5 @@ cdn.jsdelivr.net
 stackpath.bootstrapcdn.com
 turbo.cr
 bob.tinyns.me
+cuckcapital.cr
+simp6.cuckcapital.cr
