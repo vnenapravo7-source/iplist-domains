@@ -2217,6 +2217,8 @@ www.openai.com
 
 archiveofourown.org
 ficbook.net
+assets.teinon.net
+ficbook.net
 fanfiction.net
 
 amnezia-vpn.org
