@@ -2389,3 +2389,9 @@ deadlock.pro
 draft.deadlock.pro.br
 api.deadlock-api.com
 assets-bucket.deadlock-api.com
+
+pathofexile2.com
+ru.pathofexile.com
+pathofexile.com
+web.poecdn.com
+poecdn.com
