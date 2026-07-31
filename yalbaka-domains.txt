@@ -1,5 +1,5 @@
-api.appstoreconnect.apple.com
 apple-appstore.cn
+apple.com
 appleappstore.cn
 appleappstore.net
 appleappstore.tv
@@ -10,10 +10,3 @@ appstore.hk
 appstore.my
 appstore.ph
 appstoreapple.cn
-appstoreconnect.apple.com
-itms11-appstoreconnect.apple.com
-itms5-appstoreconnect.apple.com
-itms6-appstoreconnect.apple.com
-itms7-appstoreconnect.apple.com
-itms8-appstoreconnect.apple.com
-www.appstore.com
