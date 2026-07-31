@@ -2360,5 +2360,3 @@ ru.pathofexile.com
 pathofexile.com
 web.poecdn.com
 poecdn.com
-
-144.31.159.50
