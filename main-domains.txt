@@ -2247,17 +2247,6 @@ codecs.fedoraproject.org
 
 capcut.com
 
-motherless.com
-motherlessmedia.com
-cloudflare.com
-googleapis.com
-adsmediabox.com
-googletagmanager.com
-inhumanity.com
-daftporn.com
-clickadu.net
-gukahdbam.com
-
 turbo.cr
 bunkr.cr
 jpg6.su
@@ -2360,3 +2349,6 @@ ru.pathofexile.com
 pathofexile.com
 web.poecdn.com
 poecdn.com
+
+goonbox.cr
+simp6.cuckcapital.cr
