@@ -2349,6 +2349,3 @@ ru.pathofexile.com
 pathofexile.com
 web.poecdn.com
 poecdn.com
-
-goonbox.cr
-simp6.cuckcapital.cr
