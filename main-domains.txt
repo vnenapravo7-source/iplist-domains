@@ -1,88 +1,109 @@
+# other
 4pda.to
-
+technical.city
 amnezia-vpn.org
+netgrid.host
+btloader.com
+bftactics.com
 
+# anime
 anilibria.top
 aniliberty.top
 anilibria.tv
+gelbooru.com
+danbooru.donmai.us
+vndb.org
+dorama.live
+doramalive.ru
+doramy.club
+mydoramy.club
+shikimori.me
+mangadex.org
+e621.net
+amedia.site
+yummyani.me
+animebest.org
+animedia.tv
+animespirit.ru
+sovetromantica.com
+adultmult.tv
+jut-su.net
+slashlib.me
+shiza-project.com
+anistars.ru
+anistar.org
+animaunt.org
+anime-portal.su
+anilibria.uno
+anilibria.org
+anilibria.wtf
+mangadex.org
+anilib.me
+yande.re
+delivery.2d.net.co
+myanimelist.net
+manga-chan.me
 
-api.telegram.org
-boosty.to
-bambulab.com
-bblmw.com
-build-artifacts.signal.org
-btloader.com
-bftactics.com
-bunkr.cr
-
-canva.com
-capcut.com
-chatgpt.com
-clients6.google.com
-cloudflarestorage.com
-codecs.fedoraproject.org
-cub.red
-
+# deadlock
 deadlock-api.com
 deadlock.pro
 deadlock.pro.br
 deadlockmods.app
-docs.google.com
+gamebanana.com
 
-fanfiction.net
+# porn
+boosty.to
 fap.onl
 fapfolder.club
+ososedki.com
+
+# books
+fanfiction.net
 ficbook.net
-filester.sh
-fonts.googleapis.com
-fonts.gstatic.com
-fragment.com
 
-gamebanana.com
-gokino.su
-google.com
-gstatic.com
-
+# 3d
 makerworld.com
 madamevorger.com
 mobile.events.data.microsoft.com
+bambulab.com
+bblmw.com
 
-netgrid.host
-
-oaistatic.com
-oaiusercontent.com
-openai.com
-openai.fund
-openai.org
+# cisco
 openh264.org
 or-cloud-makerlab-prod.s3.dualstack.us-west-2.amazonaws.com
-ososedki.com
 
+# poe
 pathofexile.com
 pathofexile2.com
 play.google.com
 poecdn.com
 pro.br
 
+# signal
 signal.art
 signal.group
 signal.link
 signal.me
 signal.org
 signal.tube
+build-artifacts.signal.org
 
-technical.city
+# films
 themoviedb.org
 tmdb.cub.red
 tmdb.org
+gokino.su
+canva.com
+capcut.com
+cub.red
+
+# tg
+api.telegram.org
+wallet.telegram.org
+walletbot.me
 ton.org
 tonapi.io
 tonhubapi.com
 tonkeeper.com
 tonusercontent.com
-turbo.cr
-
-wallet.telegram.org
-walletbot.me
-
-x.ai
+fragment.com
