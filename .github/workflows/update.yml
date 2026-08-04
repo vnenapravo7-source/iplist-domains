@@ -75,14 +75,19 @@ jobs:
         run: |
           rm -f all-ip.txt all-domains.txt
 
-          find . -maxdepth 1 -type f -name '*-ip.txt' ! -name 'all-ip.txt' \
+          find . -maxdepth 1 -type f -name '*-ip.txt' \
+            ! -name 'all-ip.txt' \
+            ! -name 'wa-ip.txt' \
             | sort \
             | while read -r f; do
                 cat "$f" >> all-ip.txt
                 echo >> all-ip.txt
               done
 
-          find . -maxdepth 1 -type f -name '*-domains.txt' ! -name 'all-domains.txt' \
+          find . -maxdepth 1 -type f -name '*-domains.txt' \
+            ! -name 'all-domains.txt' \
+            ! -name 'scity-domains.txt' \
+            ! -name 'wa-domains.txt' \
             | sort \
             | while read -r f; do
                 cat "$f" >> all-domains.txt
