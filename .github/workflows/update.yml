@@ -70,13 +70,32 @@ jobs:
           update_file "https://beta.iplist.opencck.org/?format=text&data=ip4&site=google%40google-gemini&site=google%40google-play&site=google%40gemini&site=google%40google-registry" "ggl-ip.txt"
           update_file "https://beta.iplist.opencck.org/?format=text&data=ip4&site=apple%40appstore.com" "yalbaka-ip.txt"
           update_file "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=apple%40appstore.com" "yalbaka-domains.txt"
+
+      - name: Build merged lists
+        run: |
+          rm -f all-ip.txt all-domains.txt
+
+          find . -maxdepth 1 -type f -name '*-ip.txt' ! -name 'all-ip.txt' \
+            | sort \
+            | while read -r f; do
+                cat "$f" >> all-ip.txt
+                echo >> all-ip.txt
+              done
+
+          find . -maxdepth 1 -type f -name '*-domains.txt' ! -name 'all-domains.txt' \
+            | sort \
+            | while read -r f; do
+                cat "$f" >> all-domains.txt
+                echo >> all-domains.txt
+              done
+
           
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add yalbaka-ip.txt yalbaka-domains.txt github-ip.txt github-domains.txt anime-ip.txt anime-domains.txt tg-ip.txt tg-domains.txt inst-ip.txt wa-ip.txt yt-ip.txt inst-domains.txt wa-domains.txt yt-domains.txt pron-ip.txt pron-domains.txt rutor-rutracker-ip.txt rutor-rutracker-domains.txt spotify-ip.txt spotify-domains.txt ai-domains.txt ai-ip.txt ggl-ip.txt ggl-domains.txt fb-domains.txt fb-ip.txt x-domains.txt x-ip.txt
+          git add *.txt
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
