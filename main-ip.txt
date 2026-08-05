@@ -1,9 +1,4 @@
-# DS
-# TG
-# books
-# ggl_meet
-#meta
-# x.com
+# main-ip
 
 5.28.192.0/18
 31.13.24.0/21

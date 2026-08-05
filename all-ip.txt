@@ -1,9 +1,4 @@
-# DS
-# TG
-# books
-# ggl_meet
-#meta
-# x.com
+# all-ip
 
 3.5.0.0/16
 4.144.0.0/12

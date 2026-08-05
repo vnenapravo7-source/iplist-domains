@@ -1,3 +1,4 @@
+# ai-domains
 a-msedge.net
 adjust.com
 amazonaws.com
@@ -57,6 +58,8 @@ perplexity.com
 pollo.ai
 pplx.ai
 x.ai
+
+# anime-domains
 amd.online
 anidub.com
 anidub.pro
@@ -92,6 +95,8 @@ vrv.co
 wstracker.online
 yandexwebcache.org
 yummyanime.tv
+
+# fb-domains
 facebook.com
 facebook.com.es
 facebook.com.vn
@@ -106,6 +111,8 @@ messenger.com
 tfbnw.net
 thefacebook.com
 whatsapp.net
+
+# ggl-domains
 charlestonroadregistry.com
 crr.com
 deepmind.com
@@ -129,6 +136,8 @@ new.day
 registry.google
 xn--ngstr-lra8j.com
 xn--p8j9a0d9c9a.xn--q9jyb4c
+
+# github-domains
 amazonaws.com
 atom.io
 dependabot.com
@@ -156,6 +165,8 @@ opensource.guide
 repo.new
 thegithubshop.com
 windows.net
+
+# inst-domains
 cdninstagram.com
 facebook.com
 facebook.net
@@ -163,7 +174,8 @@ fbcdn.com
 fbcdn.net
 ig.me
 instagram.com
-# other
+
+# main-domains
 4pda.to
 technical.city
 amnezia-vpn.org
@@ -171,7 +183,6 @@ netgrid.host
 btloader.com
 bftactics.com
 
-# anime
 anilibria.top
 aniliberty.top
 anilibria.tv
@@ -209,14 +220,12 @@ delivery.2d.net.co
 myanimelist.net
 manga-chan.me
 
-# deadlock
 deadlock-api.com
 deadlock.pro
 deadlock.pro.br
 deadlockmods.app
 gamebanana.com
 
-# porn
 boosty.to
 fap.onl
 fapfolder.club
@@ -254,29 +263,24 @@ sankakuapi.com
 sankakucomplex.com
 sankakustatic.com
 
-# books
 fanfiction.net
 ficbook.net
 
-# 3d
 makerworld.com
 madamevorger.com
 mobile.events.data.microsoft.com
 bambulab.com
 bblmw.com
 
-# cisco
 openh264.org
 or-cloud-makerlab-prod.s3.dualstack.us-west-2.amazonaws.com
 
-# poe
 pathofexile.com
 pathofexile2.com
 play.google.com
 poecdn.com
 pro.br
 
-# signal
 signal.art
 signal.group
 signal.link
@@ -285,7 +289,6 @@ signal.org
 signal.tube
 build-artifacts.signal.org
 
-# films
 themoviedb.org
 tmdb.cub.red
 tmdb.org
@@ -311,7 +314,6 @@ rezka.cc
 hdrzk.org
 hdrezka.app
 
-# tg
 api.telegram.org
 wallet.telegram.org
 walletbot.me
@@ -322,14 +324,12 @@ tonkeeper.com
 tonusercontent.com
 fragment.com
 
-# meta
 internalfb.com
 oculus.com
 threads.net
 threads.com
 circlecrewpinkcrowd.com
 
-# tiktok
 byteoversea.com
 ibytedtos.com
 muscdn.com
@@ -347,7 +347,6 @@ tiktokw.us
 ttwstatic.com
 tiktokv.eu
 
-# x.com
 ads-twitter.com
 cms-twdigitalassets.com
 periscope.tv
@@ -367,7 +366,6 @@ twttr.net
 twvid.com
 vine.co
 
-# yt
 wide-youtube.l.google.com
 ytimg.l.google.com
 youtubei.googleapis.com
@@ -377,7 +375,6 @@ yt-video-upload.l.google.com
 jnn-pa.googleapis.com
 yt3.googleusercontent.com
 
-# gplay
 googleplay.com
 play-fe.googleapis.com
 play-games.googleusercontent.com
@@ -391,7 +388,6 @@ prod-lt-playstoregatewayadapter-pa.googleapis.com
 beacons.gvt2.com
 gvt1.com
 
-#g_ai
 deepmind.com
 deepmind.google
 geller-pa.googleapis.com
@@ -421,6 +417,7 @@ antigravity-unleash.goog
 firebaseinstallations.googleapis.com
 speechs3proto2-pa.googleapis.com
 
+# pron-domains
 phncdn.com
 pornhub.com
 rdtcdn.com
@@ -2492,6 +2489,7 @@ sex-studentki.love
 ru.sex-studentki.dev
 ru.sex-studentki.cafe
 
+# rutor-rutracker-domains
 rutor.info
 rutor.is
 rutor.org
@@ -2502,6 +2500,8 @@ rutracker.ru
 rutracker.wiki
 rutrk.org
 t-ru.org
+
+# spotify-domains
 akamaized.net
 byspotify.com
 pscdn.co
@@ -2516,6 +2516,8 @@ spotifycharts.com
 spotifycodes.com
 spotifyforbrands.com
 spotifyjobs.com
+
+# tg-domains
 cdn-telegram.org
 comments.app
 contest.com
@@ -2536,12 +2538,16 @@ tg.dev
 ton.org
 tx.me
 usercontent.dev
+
+# x-domains
 akamaized.net
 t.co
 tweetdeck.com
 twimg.com
 twitter.com
 x.com
+
+# yalbaka-domains
 apple-appstore.cn
 apple.com
 appleappstore.cn
@@ -2554,6 +2560,8 @@ appstore.hk
 appstore.my
 appstore.ph
 appstoreapple.cn
+
+# yt-domains
 ggpht.cn
 ggpht.com
 google.com
@@ -2732,3 +2740,4 @@ youtubekids.com
 youtubemobilesupport.com
 yt.be
 ytimg.com
+
