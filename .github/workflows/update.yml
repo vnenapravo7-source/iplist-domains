@@ -71,6 +71,12 @@ jobs:
           update_file "https://beta.iplist.opencck.org/?format=text&data=ip4&site=apple%40appstore.com" "yalbaka-ip.txt"
           update_file "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=apple%40appstore.com" "yalbaka-domains.txt"
 
+
+      - name: Test optimizer
+        run: |
+          python3 scripts/optimize_ip.py tg-ip.txt
+          python3 scripts/optimize_ip.py fb-ip.txt
+      
       - name: Build merged lists
         run: |
           rm -f all-ip.txt all-domains.txt
