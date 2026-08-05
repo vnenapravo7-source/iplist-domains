@@ -1,4 +1,4 @@
-# rutor-rutracker-ip
+# optimized from: rutor-rutracker-ip
 
 75.2.37.224
 104.21.0.111

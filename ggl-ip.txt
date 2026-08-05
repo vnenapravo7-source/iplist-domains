@@ -1,4 +1,4 @@
-# ggl-ip
+# optimized from: ggl-ip
 
 64.233.161.95
 64.233.161.100
