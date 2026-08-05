@@ -1,3 +1,5 @@
+# optimized from: anime-domains
+
 amd.online
 anidub.com
 anidub.pro

@@ -1,3 +1,5 @@
+# optimized from: inst-domains
+
 cdninstagram.com
 facebook.com
 facebook.net

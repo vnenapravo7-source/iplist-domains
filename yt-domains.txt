@@ -1,3 +1,5 @@
+# optimized from: yt-domains
+
 ggpht.cn
 ggpht.com
 google.com

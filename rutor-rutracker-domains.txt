@@ -1,3 +1,5 @@
+# optimized from: rutor-rutracker-domains
+
 rutor.info
 rutor.is
 rutor.org

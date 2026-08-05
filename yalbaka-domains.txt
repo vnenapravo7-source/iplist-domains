@@ -1,3 +1,5 @@
+# optimized from: yalbaka-domains
+
 apple-appstore.cn
 apple.com
 appleappstore.cn

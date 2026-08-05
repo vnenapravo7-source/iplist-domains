@@ -1,3 +1,5 @@
+# optimized from: spotify-domains
+
 akamaized.net
 byspotify.com
 pscdn.co

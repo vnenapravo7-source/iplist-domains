@@ -1,3 +1,5 @@
+# optimized from: tg-domains
+
 cdn-telegram.org
 comments.app
 contest.com

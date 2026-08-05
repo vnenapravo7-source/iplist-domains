@@ -1,3 +1,5 @@
+# optimized from: github-domains
+
 amazonaws.com
 atom.io
 dependabot.com

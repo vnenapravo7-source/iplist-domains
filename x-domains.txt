@@ -1,3 +1,5 @@
+# optimized from: x-domains
+
 akamaized.net
 t.co
 tweetdeck.com

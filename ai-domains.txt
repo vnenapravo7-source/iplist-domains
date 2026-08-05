@@ -1,3 +1,5 @@
+# optimized from: ai-domains
+
 a-msedge.net
 adjust.com
 amazonaws.com
