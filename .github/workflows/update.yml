@@ -89,6 +89,7 @@ jobs:
             ! -name 'all-domains.txt' \
             ! -name 'main-domains.txt' \
             ! -name 'wa-domains.txt' \
+            ! -name 'scity-domains.txt' \
             | sort \
             | while read -r f; do
                 echo "Optimizing $f"
