@@ -94,7 +94,7 @@ jobs:
             | while read -r f; do
                 name="$(basename "$f" .txt)"
                 echo "# $name" >> all-ip.txt
-                grep -v '^[[:space:]]*#' "$f" >> all-ip.txt
+                grep -v '^[[:space:]]*#' "$f" >> all-ip.txt || true
                 echo >> all-ip.txt
               done
 
