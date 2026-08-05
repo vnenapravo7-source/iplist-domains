@@ -87,9 +87,7 @@ def write_file(path: Path, comments, networks, ips):
 
     out = []
 
-    title = path.stem
-
-    out.append(f"# {title}")
+    out.append(f"# {path.stem}")
     out.append("")
 
     for net in networks:
