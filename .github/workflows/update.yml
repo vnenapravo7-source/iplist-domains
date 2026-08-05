@@ -91,7 +91,9 @@ jobs:
             ! -name 'wa-ip.txt' \
             | sort \
             | while read -r f; do
-                cat "$f" >> all-ip.txt
+                name="$(basename "$f" .txt)"
+                echo "# $name" >> all-ip.txt
+                grep -v '^[[:space:]]*#' "$f" >> all-ip.txt
                 echo >> all-ip.txt
               done
 
@@ -101,7 +103,9 @@ jobs:
             ! -name 'wa-domains.txt' \
             | sort \
             | while read -r f; do
-                cat "$f" >> all-domains.txt
+                name="$(basename "$f" .txt)"
+                echo "# $name" >> all-domains.txt
+                grep -v '^[[:space:]]*#' "$f" >> all-domains.txt
                 echo >> all-domains.txt
               done
 
