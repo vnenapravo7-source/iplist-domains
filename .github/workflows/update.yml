@@ -76,6 +76,7 @@ jobs:
         run: |
           find . -maxdepth 1 -type f -name '*-ip.txt' \
             ! -name 'all-ip.txt' \
+            ! -name 'main-ip.txt' \
             | sort \
             | while read -r f; do
                 echo "Optimizing $f"
