@@ -72,7 +72,7 @@ jobs:
           update_file "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=apple%40appstore.com" "yalbaka-domains.txt"
 
 
-      - name: optimizer
+      - name: Optimize IP files
         run: |
           find . -maxdepth 1 -type f -name '*-ip.txt' \
             ! -name 'all-ip.txt' \
@@ -82,7 +82,19 @@ jobs:
                 echo "Optimizing $f"
                 python3 scripts/optimize_ip.py "$f"
               done
-      
+
+      - name: Optimize domain files
+        run: |
+          find . -maxdepth 1 -type f -name '*-domains.txt' \
+            ! -name 'all-domains.txt' \
+            ! -name 'main-domains.txt' \
+            ! -name 'wa-domains.txt' \
+            | sort \
+            | while read -r f; do
+                echo "Optimizing $f"
+                python3 scripts/optimize_domains.py "$f"
+              done
+
       - name: Build merged lists
         run: |
           rm -f all-ip.txt all-domains.txt
@@ -106,14 +118,18 @@ jobs:
             | while read -r f; do
                 name="$(basename "$f" .txt)"
                 echo "# $name" >> all-domains.txt
-                grep -v '^[[:space:]]*#' "$f" >> all-domains.txt
+                grep -v '^[[:space:]]*#' "$f" >> all-domains.txt || true
                 echo >> all-domains.txt
               done
 
       - name: Optimize merged IP list
         run: |
           python3 scripts/optimize_ip.py all-ip.txt
-          
+
+      - name: Optimize merged domain list
+        run: |
+          python3 scripts/optimize_domains.py all-domains.txt
+
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
