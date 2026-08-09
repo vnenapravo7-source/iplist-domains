@@ -255,3 +255,7 @@ antigravity.google
 antigravity-unleash.goog
 firebaseinstallations.googleapis.com
 speechs3proto2-pa.googleapis.com
+
+#pics
+akspic.ru
+wallspic.com
