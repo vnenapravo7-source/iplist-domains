@@ -54,7 +54,7 @@ jobs:
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=rutor.info&site=rutracker.org" "rutor-rutracker-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=spotify.com" "spotify-domains.txt"
           # update_file "https://iplist.opencck.org/?format=text&data=ip4&site=spotify.com" "spotify-ip.txt"
-          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=telegram.org" "tg-ip.txt"
+          # update_file "https://iplist.opencck.org/?format=text&data=ip4&site=telegram.org" "tg-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=telegram.org" "tg-domains.txt"      
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=amedia.site&site=anidub.pro&site=anilibria.tv&site=animego.org&site=animevost.org&site=bato.to&site=crunchyroll.com&site=hentailib.me&site=jut.su&site=kara.su&site=kodik.info&site=mangahub.ru&site=mangapark.net&site=nyaa.land&site=nyaa.si&site=shikimori.one&site=yummyanime.tv" "anime-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=amedia.site&site=anidub.pro&site=anilibria.tv&site=animego.org&site=animevost.org&site=bato.to&site=crunchyroll.com&site=hentailib.me&site=jut.su&site=kara.su&site=kodik.info&site=mangahub.ru&site=mangapark.net&site=nyaa.land&site=nyaa.si&site=shikimori.one&site=yummyanime.tv" "anime-domains.txt"      
