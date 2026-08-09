@@ -49,7 +49,7 @@ jobs:
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=youtube.com" "yt-domains.txt"          
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com" "yt-ip.txt"
           # update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=pornhub.com&site=xhamster.com&site=xvideos.com&site=rule34.xxx" "pron-domains.txt"
-          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=pornhub.com&site=xhamster.com&site=xvideos.com&site=rule34.xxx" "pron-ip.txt"
+          update_file "https://iplist.opencck.org/?format=text&data=ip4&site=pornhub.com" "pron-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=rutor.info&site=rutracker.org" "rutor-rutracker-domains.txt"
           update_file "https://iplist.opencck.org/?format=text&data=ip4&site=rutor.info&site=rutracker.org" "rutor-rutracker-ip.txt"
           update_file "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=spotify.com" "spotify-domains.txt"
