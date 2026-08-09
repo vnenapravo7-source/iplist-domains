@@ -37,7 +37,6 @@ anime-portal.su
 anilibria.uno
 anilibria.org
 anilibria.wtf
-mangadex.org
 anilib.me
 yande.re
 delivery.2d.net.co
@@ -255,7 +254,3 @@ antigravity.google
 antigravity-unleash.goog
 firebaseinstallations.googleapis.com
 speechs3proto2-pa.googleapis.com
-
-#pics
-akspic.ru
-wallspic.com
