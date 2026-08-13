@@ -244,6 +244,7 @@ gamebanana.com
 gelbooru.com
 gemini.google
 gokino.su
+gql.twitch.tv
 hd-rezka.tv
 hdrezka.ac
 hdrezka.ag
@@ -328,6 +329,7 @@ twtrdns.net
 twttr.com
 twttr.net
 twvid.com
+usher.ttvnw.net
 vine.co
 vndb.org
 voidboost.cc
