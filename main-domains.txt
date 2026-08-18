@@ -216,3 +216,11 @@ antigravity.google
 antigravity-unleash.goog
 firebaseinstallations.googleapis.com
 speechs3proto2-pa.googleapis.com
+
+#phasm
+unity.com
+unity3d.com
+cloud.unity.com
+api.uca.cloud.unity3d.com
+plasticscm.com
+vivox.com
