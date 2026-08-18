@@ -272,7 +272,6 @@ openh264.org
 pathofexile.com
 pathofexile2.com
 periscope.tv
-plasticscm.com
 poecdn.com
 pro.br
 pscp.tv
@@ -329,10 +328,7 @@ twtrdns.net
 twttr.com
 twttr.net
 twvid.com
-unity.com
-unity3d.com
 vine.co
-vivox.com
 vndb.org
 voidboost.cc
 walletbot.me
