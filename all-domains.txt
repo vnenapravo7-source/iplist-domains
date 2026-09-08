@@ -244,6 +244,7 @@ anistar.org
 anistars.ru
 antigravity-unleash.goog
 antigravity.google
+archiveofourown.org
 bambulab.com
 bblmw.com
 beacons.gvt2.com
@@ -265,6 +266,7 @@ doramy.club
 e621.net
 fanfiction.net
 ficbook.net
+flathub.org
 gamebanana.com
 gelbooru.com
 gemini.google
@@ -291,6 +293,8 @@ musical.ly
 myanimelist.net
 mydoramy.club
 netgrid.host
+nexus-cdn.com
+nexusmods.com
 notebooklm.google
 oculus.com
 openh264.org
