@@ -53,6 +53,7 @@ gamebanana.com
 # books
 fanfiction.net
 ficbook.net
+archiveofourown.org
 
 # 3d
 makerworld.com
@@ -216,3 +217,14 @@ antigravity.google
 antigravity-unleash.goog
 firebaseinstallations.googleapis.com
 speechs3proto2-pa.googleapis.com
+
+#linux
+flathub.org
+www.flathub.org
+dl.flathub.org
+api.flathub.org
+docs.flathub.org
+
+#nexusmods
+nexus-cdn.com
+nexusmods.com
