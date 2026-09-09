@@ -145,18 +145,24 @@ facebook.com.vn
 facebook.fr
 fb.com
 fb.me
-fbsbx.com
 licdn.com
 messenger.com
 tfbnw.net
 thefacebook.com
-whatsapp.net
 
 # optimized from: fb-domains, inst-domains
 
-facebook.com
 facebook.net
+
+# optimized from: fb-domains, inst-domains, wa-domains
+
+facebook.com
 fbcdn.net
+
+# optimized from: fb-domains, wa-domains
+
+fbsbx.com
+whatsapp.net
 
 # optimized from: ggl-domains
 
@@ -490,6 +496,23 @@ rutracker.wiki
 rutrk.org
 t-ru.org
 
+# optimized from: scity-domains
+
+bob.tinyns.me
+cdn.jsdelivr.net
+cdn.tailwindcss.com
+cuckcapital.cr
+ddos-guard.net
+goonbox.cr
+simp6.selti-delivery.ru
+simpcity.cr
+simpcity.is
+simpcity.rs
+simpcity.su
+stackpath.bootstrapcdn.com
+turbo.cr
+turbostats.xyz
+
 # optimized from: spotify-domains
 
 byspotify.com
@@ -529,6 +552,23 @@ telesco.pe
 tg.dev
 tx.me
 usercontent.dev
+
+# optimized from: wa-domains
+
+dynect.net
+softlayer.com
+wa.me
+whatsapp-plus.info
+whatsapp-plus.me
+whatsapp-plus.net
+whatsapp.biz
+whatsapp.cc
+whatsapp.com
+whatsapp.info
+whatsapp.org
+whatsapp.tv
+whatsappbrand.com
+wl.co
 
 # optimized from: x-domains
 
