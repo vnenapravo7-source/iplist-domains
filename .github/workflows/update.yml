@@ -88,8 +88,6 @@ jobs:
           find . -maxdepth 1 -type f -name '*-domains.txt' \
             ! -name 'all-domains.txt' \
             ! -name 'main-domains.txt' \
-            #! -name 'wa-domains.txt' \
-            #! -name 'scity-domains.txt' \
             | sort \
             | while read -r f; do
                 echo "Optimizing $f"
@@ -102,7 +100,6 @@ jobs:
 
           find . -maxdepth 1 -type f -name '*-ip.txt' \
             ! -name 'all-ip.txt' \
-            #! -name 'wa-ip.txt' \
             | sort \
             | while read -r f; do
                 name="$(basename "$f" .txt)"
@@ -113,8 +110,6 @@ jobs:
 
           find . -maxdepth 1 -type f -name '*-domains.txt' \
             ! -name 'all-domains.txt' \
-            #! -name 'scity-domains.txt' \
-            #! -name 'wa-domains.txt' \
             | sort \
             | while read -r f; do
                 name="$(basename "$f" .txt)"
