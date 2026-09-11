@@ -126,12 +126,80 @@ jobs:
         run: |
           python3 scripts/optimize_domains.py all-domains.txt
 
+      - name: Build SRS rule sets
+        run: |
+          set -euo pipefail
+
+          mkdir -p .srs-tmp
+
+          python3 - <<'PY'
+          import ipaddress
+          import json
+
+          def build_domain_source(src, dst):
+              values = []
+              with open(src, encoding="utf-8") as f:
+                  for raw in f:
+                      line = raw.strip()
+                      if line and not line.startswith("#"):
+                          values.append(line)
+
+              data = {
+                  "version": 5,
+                  "rules": [
+                      {"domain_suffix": values}
+                  ]
+              }
+
+              with open(dst, "w", encoding="utf-8") as f:
+                  json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+          def build_ip_source(src, dst):
+              values = []
+              with open(src, encoding="utf-8") as f:
+                  for raw in f:
+                      line = raw.strip()
+                      if not line or line.startswith("#"):
+                          continue
+                      ipaddress.ip_network(line, strict=False)
+                      values.append(line)
+
+              data = {
+                  "version": 5,
+                  "rules": [
+                      {"ip_cidr": values}
+                  ]
+              }
+
+              with open(dst, "w", encoding="utf-8") as f:
+                  json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+          build_domain_source("all-domains.txt", ".srs-tmp/all-domains.json")
+          build_ip_source("all-ip.txt", ".srs-tmp/all-ip.json")
+          PY
+
+          docker run --rm \
+            -v "$PWD:/work" \
+            ghcr.io/sagernet/sing-box:v1.14.0 \
+            rule-set compile \
+            --output /work/all-domains.srs \
+            /work/.srs-tmp/all-domains.json
+
+          docker run --rm \
+            -v "$PWD:/work" \
+            ghcr.io/sagernet/sing-box:v1.14.0 \
+            rule-set compile \
+            --output /work/all-ip.srs \
+            /work/.srs-tmp/all-ip.json
+
+          rm -rf .srs-tmp
+
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add *.txt
+          git add *.txt *.srs
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
