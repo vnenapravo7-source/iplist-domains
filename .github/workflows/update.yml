@@ -145,7 +145,7 @@ jobs:
                           values.append(line)
 
               data = {
-                  "version": 5,
+                  "version": 4,
                   "rules": [
                       {"domain_suffix": values}
                   ]
@@ -165,7 +165,7 @@ jobs:
                       values.append(line)
 
               data = {
-                  "version": 5,
+                  "version": 4,
                   "rules": [
                       {"ip_cidr": values}
                   ]
