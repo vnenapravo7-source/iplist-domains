@@ -1,7 +1,5 @@
 #yt_ad_block
 sponsor.ajay.app
-sponsor.ajay.app
-api.sponsor.ajay.app
 
 # other
 4pda.to
