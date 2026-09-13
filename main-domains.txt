@@ -1,3 +1,6 @@
+#yt_ad_block
+sponsor.ajay.app
+
 # other
 4pda.to
 technical.city
