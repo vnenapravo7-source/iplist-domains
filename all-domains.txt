@@ -328,6 +328,7 @@ signal.org
 signal.tube
 slashlib.me
 sovetromantica.com
+sponsor.ajay.app
 stitch.withgoogle.com
 technical.city
 tellapart.com
