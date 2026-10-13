@@ -364,6 +364,7 @@ twttr.com
 twttr.net
 twvid.com
 vine.co
+virustotal.com
 vndb.org
 voidboost.cc
 walletbot.me
