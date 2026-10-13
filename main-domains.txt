@@ -1,6 +1,9 @@
 #yt_ad_block
 #sponsor.ajay.app
 
+#github
+virustotal.com
+
 # other
 4pda.to
 technical.city
