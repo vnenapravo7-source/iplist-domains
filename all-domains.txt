@@ -31,7 +31,6 @@ elevenlabs.io
 gpt3-openai.com
 grammarly.com
 grammarly.io
-grok.com
 intercom.io
 intercomassets.com
 intercomcdn.com
@@ -51,7 +50,6 @@ perplexity.ai
 perplexity.com
 pollo.ai
 pplx.ai
-x.ai
 
 # optimized from: ai-domains, ggl-domains, main-domains, yt-domains
 
@@ -70,7 +68,9 @@ amazonaws.com
 # optimized from: ai-domains, main-domains
 
 canva.com
+grok.com
 microsoft.com
+x.ai
 
 # optimized from: anime-domains
 
