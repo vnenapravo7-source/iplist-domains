@@ -4,6 +4,10 @@
 #github
 virustotal.com
 
+#groq
+api.groq.com
+console.groq.com
+
 # other
 4pda.to
 technical.city
