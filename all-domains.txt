@@ -250,6 +250,7 @@ anistar.org
 anistars.ru
 antigravity-unleash.goog
 antigravity.google
+api.groq.com
 archiveofourown.org
 bambulab.com
 bblmw.com
@@ -260,6 +261,7 @@ byteoversea.com
 capcut.com
 circlecrewpinkcrowd.com
 cms-twdigitalassets.com
+console.groq.com
 cub.red
 danbooru.donmai.us
 deadlock-api.com
