@@ -126,80 +126,31 @@ jobs:
         run: |
           python3 scripts/optimize_domains.py all-domains.txt
 
-      - name: Build SRS rule sets
+      - name: Build SRS rule sets and merge catalogs
         run: |
           set -euo pipefail
 
-          mkdir -p .srs-tmp
+          work_dir="$(mktemp -d)"
+          trap 'rm -rf "$work_dir"' EXIT
+          sing_box_version=1.14.0
+          archive="sing-box-${sing_box_version}-linux-amd64"
+          curl -fsSL --retry 3 --connect-timeout 15 --max-time 60 \
+            "https://github.com/SagerNet/sing-box/releases/download/v${sing_box_version}/${archive}.tar.gz" \
+            -o "$work_dir/sing-box.tar.gz"
+          tar -xzf "$work_dir/sing-box.tar.gz" -C "$work_dir"
+          curl -fsSL --retry 3 --connect-timeout 15 --max-time 60 \
+            "https://github.com/splify2/splify2-lists/releases/latest/download/lists.json" \
+            -o "$work_dir/lists.json"
 
-          python3 - <<'PY'
-          import ipaddress
-          import json
-
-          def build_domain_source(src, dst):
-              values = []
-              with open(src, encoding="utf-8") as f:
-                  for raw in f:
-                      line = raw.strip()
-                      if line and not line.startswith("#"):
-                          values.append(line)
-
-              data = {
-                  "version": 4,
-                  "rules": [
-                      {"domain_suffix": values}
-                  ]
-              }
-
-              with open(dst, "w", encoding="utf-8") as f:
-                  json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-
-          def build_ip_source(src, dst):
-              values = []
-              with open(src, encoding="utf-8") as f:
-                  for raw in f:
-                      line = raw.strip()
-                      if not line or line.startswith("#"):
-                          continue
-                      ipaddress.ip_network(line, strict=False)
-                      values.append(line)
-
-              data = {
-                  "version": 4,
-                  "rules": [
-                      {"ip_cidr": values}
-                  ]
-              }
-
-              with open(dst, "w", encoding="utf-8") as f:
-                  json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-
-          build_domain_source("all-domains.txt", ".srs-tmp/all-domains.json")
-          build_ip_source("all-ip.txt", ".srs-tmp/all-ip.json")
-          PY
-
-          docker run --rm \
-            -v "$PWD:/work" \
-            ghcr.io/sagernet/sing-box:v1.14.0 \
-            rule-set compile \
-            --output /work/all-domains.srs \
-            /work/.srs-tmp/all-domains.json
-
-          docker run --rm \
-            -v "$PWD:/work" \
-            ghcr.io/sagernet/sing-box:v1.14.0 \
-            rule-set compile \
-            --output /work/all-ip.srs \
-            /work/.srs-tmp/all-ip.json
-
-          rm -rf .srs-tmp
+          python3 scripts/build_rulesets.py "$work_dir/lists.json" \
+            --sing-box "$work_dir/$archive/sing-box"
 
       - name: Commit changes if any
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add *.txt *.srs
+          git add -- *.txt lists.json srs/
 
           if ! git diff --cached --quiet; then
             git commit -m "Update IP lists"
