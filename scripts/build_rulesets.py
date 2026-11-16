@@ -10,6 +10,7 @@ from urllib.parse import urljoin
 
 SOURCE = "vnenapravo7-source/iplist-domains"
 UPSTREAM_SOURCE = "splify2/splify2-lists"
+UPSTREAM_NAME_PREFIX = "[Резерв - splify] "
 
 
 def read_rules(path, rule_type):
@@ -33,31 +34,32 @@ def local_entries(root, previous, section, paths, destination, compiler, rule_ty
     metadata = {
         entry["file"]: entry
         for entry in previous[section]
-        if entry.get("source") == SOURCE and entry.get("format") == "txt"
+        if entry.get("source") == SOURCE
     }
     entries = []
     for path in sorted(paths):
         filename = path.relative_to(root).as_posix()
+        binary = path.with_suffix(".srs").name
+        binary_file = f"srs/{binary}"
         # Older catalogs used filenames that never matched the Discord lists.
         old_filename = "discord-" + filename[3:] if filename.startswith("ds-") else filename
         suffix = "-ip" if rule_type == "ip_cidr" else "-domains"
         identifier = path.stem.removesuffix(suffix)
-        entry = dict(metadata.get(filename, metadata.get(old_filename, {})))
-        entry.setdefault("id", identifier)
+        entry = dict(metadata.get(binary_file) or metadata.get(filename) or metadata.get(old_filename, {}))
+        entry["id"] = entry.get("id", identifier).removeprefix("srs:")
         entry.setdefault("name_ru", "RU" if identifier == "ru" else identifier)
         entry.setdefault("default_on", False)
         if section == "domain_lists":
             entry["kind"] = "domains"
         entry.update(
-            file=filename,
-            format="txt",
-            url=urljoin(previous["base_url"].rstrip("/") + "/", filename),
+            file=binary_file,
+            format="srs",
+            url=urljoin(previous["base_url"].rstrip("/") + "/", binary_file),
             source=SOURCE,
             source_name="iplist-domains",
         )
         entries.append(entry)
 
-        binary = path.with_suffix(".srs").name
         source = destination / path.with_suffix(".json").name
         source.write_text(
             json.dumps({"version": 4, "rules": read_rules(path, rule_type)}),
@@ -67,23 +69,17 @@ def local_entries(root, previous, section, paths, destination, compiler, rule_ty
             [compiler, "rule-set", "compile", "--output", str(destination / binary), str(source)],
             check=True,
         )
-        binary_file = f"srs/{binary}"
-        entries.append(
-            dict(
-                entry,
-                id=f"srs:{entry['id']}",
-                file=binary_file,
-                format="srs",
-                url=urljoin(previous["base_url"].rstrip("/") + "/", binary_file),
-            )
-        )
     return entries
 
 
 def merge_entries(local, upstream, section):
     base_url = upstream["base_url"].rstrip("/") + "/"
     combined = local + [
-        entry if entry.get("url") else dict(entry, url=urljoin(base_url, entry["file"]))
+        dict(
+            entry,
+            name_ru=UPSTREAM_NAME_PREFIX + entry["name_ru"],
+            url=entry.get("url") or urljoin(base_url, entry["file"]),
+        )
         for entry in upstream[section]
     ]
     ids = [entry["id"] for entry in combined]

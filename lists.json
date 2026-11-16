@@ -1,20 +1,10 @@
 {
-  "version": "2026-11-16_01-52",
-  "generated_at": "2026-11-16T01:52:44Z",
+  "version": "2026-11-16_02-00",
+  "generated_at": "2026-11-16T02:00:31Z",
   "base_url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main",
   "categories": [
     {
       "id": "ai",
-      "name_ru": "AI",
-      "file": "ai-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ai-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:ai",
       "name_ru": "AI",
       "file": "srs/ai-ip.srs",
       "format": "srs",
@@ -26,16 +16,6 @@
     {
       "id": "all",
       "name_ru": "Все IP",
-      "file": "all-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/all-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:all",
-      "name_ru": "Все IP",
       "file": "srs/all-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/all-ip.srs",
@@ -45,16 +25,6 @@
     },
     {
       "id": "anime",
-      "name_ru": "Anime",
-      "file": "anime-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/anime-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:anime",
       "name_ru": "Anime",
       "file": "srs/anime-ip.srs",
       "format": "srs",
@@ -66,16 +36,6 @@
     {
       "id": "discord",
       "name_ru": "Discord",
-      "file": "ds-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ds-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:discord",
-      "name_ru": "Discord",
       "file": "srs/ds-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/ds-ip.srs",
@@ -85,16 +45,6 @@
     },
     {
       "id": "facebook",
-      "name_ru": "Facebook",
-      "file": "fb-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/fb-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:facebook",
       "name_ru": "Facebook",
       "file": "srs/fb-ip.srs",
       "format": "srs",
@@ -106,16 +56,6 @@
     {
       "id": "google",
       "name_ru": "Google",
-      "file": "ggl-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ggl-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:google",
-      "name_ru": "Google",
       "file": "srs/ggl-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/ggl-ip.srs",
@@ -125,16 +65,6 @@
     },
     {
       "id": "github",
-      "name_ru": "GitHub",
-      "file": "github-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/github-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:github",
       "name_ru": "GitHub",
       "file": "srs/github-ip.srs",
       "format": "srs",
@@ -146,16 +76,6 @@
     {
       "id": "instagram",
       "name_ru": "Instagram",
-      "file": "inst-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/inst-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:instagram",
-      "name_ru": "Instagram",
       "file": "srs/inst-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/inst-ip.srs",
@@ -165,16 +85,6 @@
     },
     {
       "id": "main",
-      "name_ru": "Main",
-      "file": "main-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/main-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:main",
       "name_ru": "Main",
       "file": "srs/main-ip.srs",
       "format": "srs",
@@ -186,16 +96,6 @@
     {
       "id": "porn",
       "name_ru": "Porn",
-      "file": "pron-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/pron-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:porn",
-      "name_ru": "Porn",
       "file": "srs/pron-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/pron-ip.srs",
@@ -205,16 +105,6 @@
     },
     {
       "id": "rutor-rutracker",
-      "name_ru": "Rutor / RuTracker",
-      "file": "rutor-rutracker-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/rutor-rutracker-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:rutor-rutracker",
       "name_ru": "Rutor / RuTracker",
       "file": "srs/rutor-rutracker-ip.srs",
       "format": "srs",
@@ -226,16 +116,6 @@
     {
       "id": "spotify",
       "name_ru": "Spotify",
-      "file": "spotify-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/spotify-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:spotify",
-      "name_ru": "Spotify",
       "file": "srs/spotify-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/spotify-ip.srs",
@@ -245,16 +125,6 @@
     },
     {
       "id": "telegram",
-      "name_ru": "Telegram",
-      "file": "tg-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/tg-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:telegram",
       "name_ru": "Telegram",
       "file": "srs/tg-ip.srs",
       "format": "srs",
@@ -266,16 +136,6 @@
     {
       "id": "whatsapp",
       "name_ru": "WhatsApp",
-      "file": "wa-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/wa-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:whatsapp",
-      "name_ru": "WhatsApp",
       "file": "srs/wa-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/wa-ip.srs",
@@ -285,16 +145,6 @@
     },
     {
       "id": "x",
-      "name_ru": "X",
-      "file": "x-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/x-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:x",
       "name_ru": "X",
       "file": "srs/x-ip.srs",
       "format": "srs",
@@ -306,16 +156,6 @@
     {
       "id": "yalbaka",
       "name_ru": "Yalbaka",
-      "file": "yalbaka-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/yalbaka-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:yalbaka",
-      "name_ru": "Yalbaka",
       "file": "srs/yalbaka-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/yalbaka-ip.srs",
@@ -326,16 +166,6 @@
     {
       "id": "youtube",
       "name_ru": "YouTube",
-      "file": "yt-ip.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/yt-ip.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:youtube",
-      "name_ru": "YouTube",
       "file": "srs/yt-ip.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/yt-ip.srs",
@@ -345,7 +175,7 @@
     },
     {
       "id": "itdoginfo:cloudflare",
-      "name_ru": "Cloudflare",
+      "name_ru": "[Резерв - splify] Cloudflare",
       "file": "itdoginfo/cloudflare.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/cloudflare.srs",
@@ -356,7 +186,7 @@
     },
     {
       "id": "itdoginfo:cloudfront",
-      "name_ru": "Amazon CloudFront",
+      "name_ru": "[Резерв - splify] Amazon CloudFront",
       "file": "itdoginfo/cloudfront.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/cloudfront.srs",
@@ -367,7 +197,7 @@
     },
     {
       "id": "itdoginfo:digitalocean",
-      "name_ru": "DigitalOcean",
+      "name_ru": "[Резерв - splify] DigitalOcean",
       "file": "itdoginfo/digitalocean.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/digitalocean.srs",
@@ -378,7 +208,7 @@
     },
     {
       "id": "itdoginfo:discord",
-      "name_ru": "Discord",
+      "name_ru": "[Резерв - splify] Discord",
       "file": "itdoginfo/discord.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/discord.srs",
@@ -389,7 +219,7 @@
     },
     {
       "id": "itdoginfo:google_meet",
-      "name_ru": "Google Meet",
+      "name_ru": "[Резерв - splify] Google Meet",
       "file": "itdoginfo/google_meet.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/google_meet.srs",
@@ -400,7 +230,7 @@
     },
     {
       "id": "itdoginfo:hetzner",
-      "name_ru": "Hetzner",
+      "name_ru": "[Резерв - splify] Hetzner",
       "file": "itdoginfo/hetzner.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/hetzner.srs",
@@ -411,7 +241,7 @@
     },
     {
       "id": "itdoginfo:meta",
-      "name_ru": "Meta (Facebook, Instagram)",
+      "name_ru": "[Резерв - splify] Meta (Facebook, Instagram)",
       "file": "itdoginfo/meta.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/meta.srs",
@@ -422,7 +252,7 @@
     },
     {
       "id": "itdoginfo:ovh",
-      "name_ru": "OVH",
+      "name_ru": "[Резерв - splify] OVH",
       "file": "itdoginfo/ovh.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/ovh.srs",
@@ -433,7 +263,7 @@
     },
     {
       "id": "itdoginfo:roblox",
-      "name_ru": "Roblox",
+      "name_ru": "[Резерв - splify] Roblox",
       "file": "itdoginfo/roblox.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/roblox.srs",
@@ -444,7 +274,7 @@
     },
     {
       "id": "itdoginfo:telegram",
-      "name_ru": "Telegram",
+      "name_ru": "[Резерв - splify] Telegram",
       "file": "itdoginfo/telegram.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/telegram.srs",
@@ -455,7 +285,7 @@
     },
     {
       "id": "itdoginfo:twitter",
-      "name_ru": "Twitter (X)",
+      "name_ru": "[Резерв - splify] Twitter (X)",
       "file": "itdoginfo/twitter.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/twitter.srs",
@@ -466,7 +296,7 @@
     },
     {
       "id": "b4geoip:adobe",
-      "name_ru": "Adobe",
+      "name_ru": "[Резерв - splify] Adobe",
       "file": "b4geoip/adobe.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/adobe.srs",
@@ -477,7 +307,7 @@
     },
     {
       "id": "b4geoip:anthropic",
-      "name_ru": "Anthropic (Claude)",
+      "name_ru": "[Резерв - splify] Anthropic (Claude)",
       "file": "b4geoip/anthropic.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/anthropic.srs",
@@ -488,7 +318,7 @@
     },
     {
       "id": "b4geoip:apexlegends_rocketleague",
-      "name_ru": "Apexlegends Rocketleague",
+      "name_ru": "[Резерв - splify] Apexlegends Rocketleague",
       "file": "b4geoip/apexlegends_rocketleague.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/apexlegends_rocketleague.srs",
@@ -499,7 +329,7 @@
     },
     {
       "id": "b4geoip:apple",
-      "name_ru": "Apple",
+      "name_ru": "[Резерв - splify] Apple",
       "file": "b4geoip/apple.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/apple.srs",
@@ -510,7 +340,7 @@
     },
     {
       "id": "b4geoip:arknights",
-      "name_ru": "Arknights",
+      "name_ru": "[Резерв - splify] Arknights",
       "file": "b4geoip/arknights.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/arknights.srs",
@@ -521,7 +351,7 @@
     },
     {
       "id": "b4geoip:armareforger",
-      "name_ru": "Armareforger",
+      "name_ru": "[Резерв - splify] Armareforger",
       "file": "b4geoip/armareforger.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/armareforger.srs",
@@ -532,7 +362,7 @@
     },
     {
       "id": "b4geoip:battlefield6",
-      "name_ru": "Battlefield6",
+      "name_ru": "[Резерв - splify] Battlefield6",
       "file": "b4geoip/battlefield6.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/battlefield6.srs",
@@ -543,7 +373,7 @@
     },
     {
       "id": "b4geoip:blizzard",
-      "name_ru": "Blizzard",
+      "name_ru": "[Резерв - splify] Blizzard",
       "file": "b4geoip/blizzard.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/blizzard.srs",
@@ -554,7 +384,7 @@
     },
     {
       "id": "b4geoip:bluearchive",
-      "name_ru": "Bluearchive",
+      "name_ru": "[Резерв - splify] Bluearchive",
       "file": "b4geoip/bluearchive.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/bluearchive.srs",
@@ -565,7 +395,7 @@
     },
     {
       "id": "b4geoip:bungie",
-      "name_ru": "Bungie (Destiny)",
+      "name_ru": "[Резерв - splify] Bungie (Destiny)",
       "file": "b4geoip/bungie.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/bungie.srs",
@@ -576,7 +406,7 @@
     },
     {
       "id": "b4geoip:callofduty",
-      "name_ru": "Callofduty",
+      "name_ru": "[Резерв - splify] Callofduty",
       "file": "b4geoip/callofduty.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/callofduty.srs",
@@ -587,7 +417,7 @@
     },
     {
       "id": "b4geoip:ccp",
-      "name_ru": "CCP (EVE Online)",
+      "name_ru": "[Резерв - splify] CCP (EVE Online)",
       "file": "b4geoip/ccp.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/ccp.srs",
@@ -598,7 +428,7 @@
     },
     {
       "id": "b4geoip:companyofheroes2",
-      "name_ru": "Companyofheroes2",
+      "name_ru": "[Резерв - splify] Companyofheroes2",
       "file": "b4geoip/companyofheroes2.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/companyofheroes2.srs",
@@ -609,7 +439,7 @@
     },
     {
       "id": "b4geoip:darktide",
-      "name_ru": "Darktide",
+      "name_ru": "[Резерв - splify] Darktide",
       "file": "b4geoip/darktide.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/darktide.srs",
@@ -620,7 +450,7 @@
     },
     {
       "id": "b4geoip:deadbydaylight",
-      "name_ru": "Deadbydaylight",
+      "name_ru": "[Резерв - splify] Deadbydaylight",
       "file": "b4geoip/deadbydaylight.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/deadbydaylight.srs",
@@ -631,7 +461,7 @@
     },
     {
       "id": "b4geoip:electronicarts",
-      "name_ru": "Electronic Arts",
+      "name_ru": "[Резерв - splify] Electronic Arts",
       "file": "b4geoip/electronicarts.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/electronicarts.srs",
@@ -642,7 +472,7 @@
     },
     {
       "id": "b4geoip:epicgames",
-      "name_ru": "Epic Games",
+      "name_ru": "[Резерв - splify] Epic Games",
       "file": "b4geoip/epicgames.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/epicgames.srs",
@@ -653,7 +483,7 @@
     },
     {
       "id": "b4geoip:fallout76_aws",
-      "name_ru": "Fallout76 Aws",
+      "name_ru": "[Резерв - splify] Fallout76 Aws",
       "file": "b4geoip/fallout76_aws.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/fallout76_aws.srs",
@@ -664,7 +494,7 @@
     },
     {
       "id": "b4geoip:gearsofwar",
-      "name_ru": "Gearsofwar",
+      "name_ru": "[Резерв - splify] Gearsofwar",
       "file": "b4geoip/gearsofwar.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/gearsofwar.srs",
@@ -675,7 +505,7 @@
     },
     {
       "id": "b4geoip:google",
-      "name_ru": "Google",
+      "name_ru": "[Резерв - splify] Google",
       "file": "b4geoip/google.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/google.srs",
@@ -686,7 +516,7 @@
     },
     {
       "id": "b4geoip:goosegooseduck",
-      "name_ru": "Goosegooseduck",
+      "name_ru": "[Резерв - splify] Goosegooseduck",
       "file": "b4geoip/goosegooseduck.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/goosegooseduck.srs",
@@ -697,7 +527,7 @@
     },
     {
       "id": "b4geoip:magicthegathering",
-      "name_ru": "Magicthegathering",
+      "name_ru": "[Резерв - splify] Magicthegathering",
       "file": "b4geoip/magicthegathering.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/magicthegathering.srs",
@@ -708,7 +538,7 @@
     },
     {
       "id": "b4geoip:minecraft_extra",
-      "name_ru": "Minecraft Extra",
+      "name_ru": "[Резерв - splify] Minecraft Extra",
       "file": "b4geoip/minecraft_extra.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/minecraft_extra.srs",
@@ -719,7 +549,7 @@
     },
     {
       "id": "b4geoip:mortalkombat1",
-      "name_ru": "Mortalkombat1",
+      "name_ru": "[Резерв - splify] Mortalkombat1",
       "file": "b4geoip/mortalkombat1.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/mortalkombat1.srs",
@@ -730,7 +560,7 @@
     },
     {
       "id": "b4geoip:mortalkombat11",
-      "name_ru": "Mortalkombat11",
+      "name_ru": "[Резерв - splify] Mortalkombat11",
       "file": "b4geoip/mortalkombat11.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/mortalkombat11.srs",
@@ -741,7 +571,7 @@
     },
     {
       "id": "b4geoip:nintendo",
-      "name_ru": "Nintendo",
+      "name_ru": "[Резерв - splify] Nintendo",
       "file": "b4geoip/nintendo.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/nintendo.srs",
@@ -752,7 +582,7 @@
     },
     {
       "id": "b4geoip:outlasttrials",
-      "name_ru": "Outlasttrials",
+      "name_ru": "[Резерв - splify] Outlasttrials",
       "file": "b4geoip/outlasttrials.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/outlasttrials.srs",
@@ -763,7 +593,7 @@
     },
     {
       "id": "b4geoip:photonengine",
-      "name_ru": "Photonengine",
+      "name_ru": "[Резерв - splify] Photonengine",
       "file": "b4geoip/photonengine.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/photonengine.srs",
@@ -774,7 +604,7 @@
     },
     {
       "id": "b4geoip:play2go",
-      "name_ru": "Play2Go",
+      "name_ru": "[Резерв - splify] Play2Go",
       "file": "b4geoip/play2go.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/play2go.srs",
@@ -785,7 +615,7 @@
     },
     {
       "id": "b4geoip:riot",
-      "name_ru": "Riot Games",
+      "name_ru": "[Резерв - splify] Riot Games",
       "file": "b4geoip/riot.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/riot.srs",
@@ -796,7 +626,7 @@
     },
     {
       "id": "b4geoip:roblox",
-      "name_ru": "Roblox",
+      "name_ru": "[Резерв - splify] Roblox",
       "file": "b4geoip/roblox.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/roblox.srs",
@@ -807,7 +637,7 @@
     },
     {
       "id": "b4geoip:sony",
-      "name_ru": "Sony (PlayStation)",
+      "name_ru": "[Резерв - splify] Sony (PlayStation)",
       "file": "b4geoip/sony.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/sony.srs",
@@ -818,7 +648,7 @@
     },
     {
       "id": "b4geoip:streetfighter6",
-      "name_ru": "Streetfighter6",
+      "name_ru": "[Резерв - splify] Streetfighter6",
       "file": "b4geoip/streetfighter6.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/streetfighter6.srs",
@@ -829,7 +659,7 @@
     },
     {
       "id": "b4geoip:taketwo",
-      "name_ru": "Take-Two (Rockstar)",
+      "name_ru": "[Резерв - splify] Take-Two (Rockstar)",
       "file": "b4geoip/taketwo.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/taketwo.srs",
@@ -840,7 +670,7 @@
     },
     {
       "id": "b4geoip:twitch",
-      "name_ru": "Twitch",
+      "name_ru": "[Резерв - splify] Twitch",
       "file": "b4geoip/twitch.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/twitch.srs",
@@ -851,7 +681,7 @@
     },
     {
       "id": "b4geoip:ubisoft",
-      "name_ru": "Ubisoft",
+      "name_ru": "[Резерв - splify] Ubisoft",
       "file": "b4geoip/ubisoft.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/ubisoft.srs",
@@ -862,7 +692,7 @@
     },
     {
       "id": "b4geoip:valve",
-      "name_ru": "Valve (Steam)",
+      "name_ru": "[Резерв - splify] Valve (Steam)",
       "file": "b4geoip/valve.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/valve.srs",
@@ -873,7 +703,7 @@
     },
     {
       "id": "b4geoip:vrchat",
-      "name_ru": "Vrchat",
+      "name_ru": "[Резерв - splify] Vrchat",
       "file": "b4geoip/vrchat.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/vrchat.srs",
@@ -884,7 +714,7 @@
     },
     {
       "id": "b4geoip:wardogs",
-      "name_ru": "Wardogs",
+      "name_ru": "[Резерв - splify] Wardogs",
       "file": "b4geoip/wardogs.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/wardogs.srs",
@@ -895,7 +725,7 @@
     },
     {
       "id": "b4geoip:warframe",
-      "name_ru": "Warframe",
+      "name_ru": "[Резерв - splify] Warframe",
       "file": "b4geoip/warframe.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/warframe.srs",
@@ -906,7 +736,7 @@
     },
     {
       "id": "b4geoip:wargaming",
-      "name_ru": "Wargaming",
+      "name_ru": "[Резерв - splify] Wargaming",
       "file": "b4geoip/wargaming.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/wargaming.srs",
@@ -917,7 +747,7 @@
     },
     {
       "id": "b4geoip:wutheringwaves",
-      "name_ru": "Wutheringwaves",
+      "name_ru": "[Резерв - splify] Wutheringwaves",
       "file": "b4geoip/wutheringwaves.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/wutheringwaves.srs",
@@ -928,7 +758,7 @@
     },
     {
       "id": "b4geoip:xbox",
-      "name_ru": "Xbox",
+      "name_ru": "[Резерв - splify] Xbox",
       "file": "b4geoip/xbox.srs.lst",
       "format": "srs",
       "url": "https://github.com/Greeg0ry/b4geoip-forkop/releases/download/2026-11-11_00-03/xbox.srs",
@@ -943,17 +773,6 @@
       "id": "ai",
       "kind": "domains",
       "name_ru": "AI",
-      "file": "ai-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ai-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:ai",
-      "kind": "domains",
-      "name_ru": "AI",
       "file": "srs/ai-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/ai-domains.srs",
@@ -963,17 +782,6 @@
     },
     {
       "id": "all",
-      "kind": "domains",
-      "name_ru": "Все домены",
-      "file": "all-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/all-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:all",
       "kind": "domains",
       "name_ru": "Все домены",
       "file": "srs/all-domains.srs",
@@ -987,17 +795,6 @@
       "id": "anime",
       "kind": "domains",
       "name_ru": "Anime",
-      "file": "anime-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/anime-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:anime",
-      "kind": "domains",
-      "name_ru": "Anime",
       "file": "srs/anime-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/anime-domains.srs",
@@ -1007,17 +804,6 @@
     },
     {
       "id": "discord",
-      "kind": "domains",
-      "name_ru": "Discord",
-      "file": "ds-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ds-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:discord",
       "kind": "domains",
       "name_ru": "Discord",
       "file": "srs/ds-domains.srs",
@@ -1031,17 +817,6 @@
       "id": "facebook",
       "kind": "domains",
       "name_ru": "Facebook",
-      "file": "fb-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/fb-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:facebook",
-      "kind": "domains",
-      "name_ru": "Facebook",
       "file": "srs/fb-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/fb-domains.srs",
@@ -1051,17 +826,6 @@
     },
     {
       "id": "google",
-      "kind": "domains",
-      "name_ru": "Google",
-      "file": "ggl-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ggl-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:google",
       "kind": "domains",
       "name_ru": "Google",
       "file": "srs/ggl-domains.srs",
@@ -1075,17 +839,6 @@
       "id": "github",
       "kind": "domains",
       "name_ru": "GitHub",
-      "file": "github-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/github-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:github",
-      "kind": "domains",
-      "name_ru": "GitHub",
       "file": "srs/github-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/github-domains.srs",
@@ -1095,17 +848,6 @@
     },
     {
       "id": "instagram",
-      "kind": "domains",
-      "name_ru": "Instagram",
-      "file": "inst-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/inst-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:instagram",
       "kind": "domains",
       "name_ru": "Instagram",
       "file": "srs/inst-domains.srs",
@@ -1119,17 +861,6 @@
       "id": "main",
       "kind": "domains",
       "name_ru": "Main",
-      "file": "main-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/main-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:main",
-      "kind": "domains",
-      "name_ru": "Main",
       "file": "srs/main-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/main-domains.srs",
@@ -1139,17 +870,6 @@
     },
     {
       "id": "porn",
-      "kind": "domains",
-      "name_ru": "Porn",
-      "file": "pron-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/pron-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:porn",
       "kind": "domains",
       "name_ru": "Porn",
       "file": "srs/pron-domains.srs",
@@ -1164,17 +884,6 @@
       "name_ru": "RU",
       "default_on": false,
       "kind": "domains",
-      "file": "ru/ru.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/ru/ru.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains"
-    },
-    {
-      "id": "srs:ru",
-      "name_ru": "RU",
-      "default_on": false,
-      "kind": "domains",
       "file": "srs/ru.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/ru.srs",
@@ -1183,17 +892,6 @@
     },
     {
       "id": "rutor-rutracker",
-      "kind": "domains",
-      "name_ru": "Rutor / RuTracker",
-      "file": "rutor-rutracker-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/rutor-rutracker-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:rutor-rutracker",
       "kind": "domains",
       "name_ru": "Rutor / RuTracker",
       "file": "srs/rutor-rutracker-domains.srs",
@@ -1207,17 +905,6 @@
       "id": "scity",
       "kind": "domains",
       "name_ru": "SCity",
-      "file": "scity-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/scity-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:scity",
-      "kind": "domains",
-      "name_ru": "SCity",
       "file": "srs/scity-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/scity-domains.srs",
@@ -1227,17 +914,6 @@
     },
     {
       "id": "spotify",
-      "kind": "domains",
-      "name_ru": "Spotify",
-      "file": "spotify-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/spotify-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:spotify",
       "kind": "domains",
       "name_ru": "Spotify",
       "file": "srs/spotify-domains.srs",
@@ -1251,17 +927,6 @@
       "id": "telegram",
       "kind": "domains",
       "name_ru": "Telegram",
-      "file": "tg-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/tg-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:telegram",
-      "kind": "domains",
-      "name_ru": "Telegram",
       "file": "srs/tg-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/tg-domains.srs",
@@ -1271,17 +936,6 @@
     },
     {
       "id": "whatsapp",
-      "kind": "domains",
-      "name_ru": "WhatsApp",
-      "file": "wa-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/wa-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:whatsapp",
       "kind": "domains",
       "name_ru": "WhatsApp",
       "file": "srs/wa-domains.srs",
@@ -1295,17 +949,6 @@
       "id": "x",
       "kind": "domains",
       "name_ru": "X",
-      "file": "x-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/x-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:x",
-      "kind": "domains",
-      "name_ru": "X",
       "file": "srs/x-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/x-domains.srs",
@@ -1315,17 +958,6 @@
     },
     {
       "id": "yalbaka",
-      "kind": "domains",
-      "name_ru": "Yalbaka",
-      "file": "yalbaka-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/yalbaka-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:yalbaka",
       "kind": "domains",
       "name_ru": "Yalbaka",
       "file": "srs/yalbaka-domains.srs",
@@ -1339,17 +971,6 @@
       "id": "youtube",
       "kind": "domains",
       "name_ru": "YouTube",
-      "file": "yt-domains.txt",
-      "format": "txt",
-      "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/yt-domains.txt",
-      "source": "vnenapravo7-source/iplist-domains",
-      "source_name": "iplist-domains",
-      "default_on": false
-    },
-    {
-      "id": "srs:youtube",
-      "kind": "domains",
-      "name_ru": "YouTube",
       "file": "srs/yt-domains.srs",
       "format": "srs",
       "url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main/srs/yt-domains.srs",
@@ -1359,7 +980,7 @@
     },
     {
       "id": "dpi-detect",
-      "name_ru": "DPI Detect",
+      "name_ru": "[Резерв - splify] DPI Detect",
       "file": "dpi-detect.lst",
       "count": 18,
       "default_on": false,
@@ -1369,7 +990,7 @@
     },
     {
       "id": "mydyson",
-      "name_ru": "MyDyson",
+      "name_ru": "[Резерв - splify] MyDyson",
       "file": "mydyson.lst",
       "count": 1,
       "default_on": false,
@@ -1380,7 +1001,7 @@
     {
       "id": "itdoginfo:anime",
       "kind": "domains",
-      "name_ru": "Аниме",
+      "name_ru": "[Резерв - splify] Аниме",
       "file": "itdoginfo/domains/anime.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/anime.srs",
@@ -1392,7 +1013,7 @@
     {
       "id": "itdoginfo:block",
       "kind": "domains",
-      "name_ru": "Заблокированное в РФ",
+      "name_ru": "[Резерв - splify] Заблокированное в РФ",
       "file": "itdoginfo/domains/block.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/block.srs",
@@ -1404,7 +1025,7 @@
     {
       "id": "svc_itdoginfo_cloudflare",
       "kind": "domains",
-      "name_ru": "Cloudflare",
+      "name_ru": "[Резерв - splify] Cloudflare",
       "file": "itdoginfo/domains/cloudflare.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/cloudflare.srs",
@@ -1419,7 +1040,7 @@
     {
       "id": "svc_itdoginfo_cloudfront",
       "kind": "domains",
-      "name_ru": "Amazon CloudFront",
+      "name_ru": "[Резерв - splify] Amazon CloudFront",
       "file": "itdoginfo/domains/cloudfront.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/cloudfront.srs",
@@ -1434,7 +1055,7 @@
     {
       "id": "svc_itdoginfo_digitalocean",
       "kind": "domains",
-      "name_ru": "DigitalOcean",
+      "name_ru": "[Резерв - splify] DigitalOcean",
       "file": "itdoginfo/domains/digitalocean.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/digitalocean.srs",
@@ -1449,7 +1070,7 @@
     {
       "id": "svc_itdoginfo_discord",
       "kind": "domains",
-      "name_ru": "Discord",
+      "name_ru": "[Резерв - splify] Discord",
       "file": "itdoginfo/domains/discord.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/discord.srs",
@@ -1464,7 +1085,7 @@
     {
       "id": "itdoginfo:geoblock",
       "kind": "domains",
-      "name_ru": "Геоблокировка (не пускают из РФ)",
+      "name_ru": "[Резерв - splify] Геоблокировка (не пускают из РФ)",
       "file": "itdoginfo/domains/geoblock.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/geoblock.srs",
@@ -1476,7 +1097,7 @@
     {
       "id": "itdoginfo:google_ai",
       "kind": "domains",
-      "name_ru": "Google AI",
+      "name_ru": "[Резерв - splify] Google AI",
       "file": "itdoginfo/domains/google_ai.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/google_ai.srs",
@@ -1488,7 +1109,7 @@
     {
       "id": "svc_itdoginfo_google_meet",
       "kind": "domains",
-      "name_ru": "Google Meet",
+      "name_ru": "[Резерв - splify] Google Meet",
       "file": "itdoginfo/domains/google_meet.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/google_meet.srs",
@@ -1503,7 +1124,7 @@
     {
       "id": "itdoginfo:google_play",
       "kind": "domains",
-      "name_ru": "Google Play",
+      "name_ru": "[Резерв - splify] Google Play",
       "file": "itdoginfo/domains/google_play.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/google_play.srs",
@@ -1515,7 +1136,7 @@
     {
       "id": "itdoginfo:hdrezka",
       "kind": "domains",
-      "name_ru": "HDRezka",
+      "name_ru": "[Резерв - splify] HDRezka",
       "file": "itdoginfo/domains/hdrezka.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/hdrezka.srs",
@@ -1527,7 +1148,7 @@
     {
       "id": "svc_itdoginfo_hetzner",
       "kind": "domains",
-      "name_ru": "Hetzner",
+      "name_ru": "[Резерв - splify] Hetzner",
       "file": "itdoginfo/domains/hetzner.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/hetzner.srs",
@@ -1542,7 +1163,7 @@
     {
       "id": "itdoginfo:hodca",
       "kind": "domains",
-      "name_ru": "H.O.D.C.A (Hetzner, OVH, DigitalOcean, Cloudflare, AWS, Akamai)",
+      "name_ru": "[Резерв - splify] H.O.D.C.A (Hetzner, OVH, DigitalOcean, Cloudflare, AWS, Akamai)",
       "file": "itdoginfo/domains/hodca.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/hodca.srs",
@@ -1554,7 +1175,7 @@
     {
       "id": "svc_itdoginfo_meta",
       "kind": "domains",
-      "name_ru": "Meta (Facebook, Instagram)",
+      "name_ru": "[Резерв - splify] Meta (Facebook, Instagram)",
       "file": "itdoginfo/domains/meta.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/meta.srs",
@@ -1569,7 +1190,7 @@
     {
       "id": "itdoginfo:news",
       "kind": "domains",
-      "name_ru": "Новости",
+      "name_ru": "[Резерв - splify] Новости",
       "file": "itdoginfo/domains/news.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/news.srs",
@@ -1581,7 +1202,7 @@
     {
       "id": "svc_itdoginfo_ovh",
       "kind": "domains",
-      "name_ru": "OVH",
+      "name_ru": "[Резерв - splify] OVH",
       "file": "itdoginfo/domains/ovh.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/ovh.srs",
@@ -1596,7 +1217,7 @@
     {
       "id": "itdoginfo:porn",
       "kind": "domains",
-      "name_ru": "Взрослое",
+      "name_ru": "[Резерв - splify] Взрослое",
       "file": "itdoginfo/domains/porn.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/porn.srs",
@@ -1608,7 +1229,7 @@
     {
       "id": "svc_itdoginfo_roblox",
       "kind": "domains",
-      "name_ru": "Roblox",
+      "name_ru": "[Резерв - splify] Roblox",
       "file": "itdoginfo/domains/roblox.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/roblox.srs",
@@ -1623,7 +1244,7 @@
     {
       "id": "itdoginfo:russia_inside",
       "kind": "domains",
-      "name_ru": "Россия: изнутри (сборный)",
+      "name_ru": "[Резерв - splify] Россия: изнутри (сборный)",
       "file": "itdoginfo/domains/russia_inside.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/russia_inside.srs",
@@ -1635,7 +1256,7 @@
     {
       "id": "itdoginfo:russia_outside",
       "kind": "domains",
-      "name_ru": "Россия: снаружи (сборный)",
+      "name_ru": "[Резерв - splify] Россия: снаружи (сборный)",
       "file": "itdoginfo/domains/russia_outside.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/russia_outside.srs",
@@ -1647,7 +1268,7 @@
     {
       "id": "svc_itdoginfo_telegram",
       "kind": "domains",
-      "name_ru": "Telegram",
+      "name_ru": "[Резерв - splify] Telegram",
       "file": "itdoginfo/domains/telegram.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/telegram.srs",
@@ -1662,7 +1283,7 @@
     {
       "id": "itdoginfo:tiktok",
       "kind": "domains",
-      "name_ru": "TikTok",
+      "name_ru": "[Резерв - splify] TikTok",
       "file": "itdoginfo/domains/tiktok.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/tiktok.srs",
@@ -1674,7 +1295,7 @@
     {
       "id": "svc_itdoginfo_twitter",
       "kind": "domains",
-      "name_ru": "Twitter (X)",
+      "name_ru": "[Резерв - splify] Twitter (X)",
       "file": "itdoginfo/domains/twitter.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/twitter.srs",
@@ -1689,7 +1310,7 @@
     {
       "id": "itdoginfo:ukraine_inside",
       "kind": "domains",
-      "name_ru": "Украина: заблокированное",
+      "name_ru": "[Резерв - splify] Украина: заблокированное",
       "file": "itdoginfo/domains/ukraine_inside.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/ukraine_inside.srs",
@@ -1701,7 +1322,7 @@
     {
       "id": "itdoginfo:youtube",
       "kind": "domains",
-      "name_ru": "YouTube",
+      "name_ru": "[Резерв - splify] YouTube",
       "file": "itdoginfo/domains/youtube.srs.lst",
       "format": "srs",
       "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-09_19-01/youtube.srs",
