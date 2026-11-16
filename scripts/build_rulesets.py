@@ -41,18 +41,26 @@ def local_entries(root, previous, section, paths, destination, compiler, rule_ty
         filename = path.relative_to(root).as_posix()
         binary = path.with_suffix(".srs").name
         binary_file = f"srs/{binary}"
+        # Splify2 saves extracted text under file and uses its .srs sibling for binaries.
+        # A new directory also avoids .srs paths used for text by older catalogs.
+        catalog_file = f"iplist-domains/{binary}.lst"
         # Older catalogs used filenames that never matched the Discord lists.
         old_filename = "discord-" + filename[3:] if filename.startswith("ds-") else filename
         suffix = "-ip" if rule_type == "ip_cidr" else "-domains"
         identifier = path.stem.removesuffix(suffix)
-        entry = dict(metadata.get(binary_file) or metadata.get(filename) or metadata.get(old_filename, {}))
+        entry = dict(
+            metadata.get(catalog_file)
+            or metadata.get(binary_file)
+            or metadata.get(filename)
+            or metadata.get(old_filename, {})
+        )
         entry["id"] = entry.get("id", identifier).removeprefix("srs:")
         entry.setdefault("name_ru", "RU" if identifier == "ru" else identifier)
         entry.setdefault("default_on", False)
         if section == "domain_lists":
             entry["kind"] = "domains"
         entry.update(
-            file=binary_file,
+            file=catalog_file,
             format="srs",
             url=urljoin(previous["base_url"].rstrip("/") + "/", binary_file),
             source=SOURCE,
