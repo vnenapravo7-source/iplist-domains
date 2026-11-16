@@ -65,6 +65,8 @@ gamebanana.com
 # books
 fanfiction.net
 ficbook.net
+assets.teinon.net
+teinon.net
 archiveofourown.org
 
 # 3d
