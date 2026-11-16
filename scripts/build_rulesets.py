@@ -104,6 +104,12 @@ def build(root, upstream, compiler):
         staging = Path(temp)
         for section, (rule_type, paths) in sections.items():
             local = local_entries(root, previous, section, paths, staging, compiler, rule_type)
+            if section == "domain_lists":
+                # Splify2 tracks selections by service ID across both catalog sections.
+                ip_ids = {entry["id"] for entry in catalog["categories"]}
+                for entry in local:
+                    if entry["id"] in ip_ids:
+                        entry["id"] += "-domains"
             catalog[section] = merge_entries(local, upstream, section)
 
         output = root / "srs"

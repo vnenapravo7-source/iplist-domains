@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-16_02-00",
-  "generated_at": "2026-11-16T02:00:31Z",
+  "version": "2026-11-16_02-12",
+  "generated_at": "2026-11-16T02:12:01Z",
   "base_url": "https://raw.githubusercontent.com/vnenapravo7-source/iplist-domains/refs/heads/main",
   "categories": [
     {
@@ -770,7 +770,7 @@
   ],
   "domain_lists": [
     {
-      "id": "ai",
+      "id": "ai-domains",
       "kind": "domains",
       "name_ru": "AI",
       "file": "srs/ai-domains.srs",
@@ -781,7 +781,7 @@
       "default_on": false
     },
     {
-      "id": "all",
+      "id": "all-domains",
       "kind": "domains",
       "name_ru": "Все домены",
       "file": "srs/all-domains.srs",
@@ -792,7 +792,7 @@
       "default_on": false
     },
     {
-      "id": "anime",
+      "id": "anime-domains",
       "kind": "domains",
       "name_ru": "Anime",
       "file": "srs/anime-domains.srs",
@@ -803,7 +803,7 @@
       "default_on": false
     },
     {
-      "id": "discord",
+      "id": "discord-domains",
       "kind": "domains",
       "name_ru": "Discord",
       "file": "srs/ds-domains.srs",
@@ -814,7 +814,7 @@
       "default_on": false
     },
     {
-      "id": "facebook",
+      "id": "facebook-domains",
       "kind": "domains",
       "name_ru": "Facebook",
       "file": "srs/fb-domains.srs",
@@ -825,7 +825,7 @@
       "default_on": false
     },
     {
-      "id": "google",
+      "id": "google-domains",
       "kind": "domains",
       "name_ru": "Google",
       "file": "srs/ggl-domains.srs",
@@ -836,7 +836,7 @@
       "default_on": false
     },
     {
-      "id": "github",
+      "id": "github-domains",
       "kind": "domains",
       "name_ru": "GitHub",
       "file": "srs/github-domains.srs",
@@ -847,7 +847,7 @@
       "default_on": false
     },
     {
-      "id": "instagram",
+      "id": "instagram-domains",
       "kind": "domains",
       "name_ru": "Instagram",
       "file": "srs/inst-domains.srs",
@@ -858,7 +858,7 @@
       "default_on": false
     },
     {
-      "id": "main",
+      "id": "main-domains",
       "kind": "domains",
       "name_ru": "Main",
       "file": "srs/main-domains.srs",
@@ -869,7 +869,7 @@
       "default_on": false
     },
     {
-      "id": "porn",
+      "id": "porn-domains",
       "kind": "domains",
       "name_ru": "Porn",
       "file": "srs/pron-domains.srs",
@@ -891,7 +891,7 @@
       "source_name": "iplist-domains"
     },
     {
-      "id": "rutor-rutracker",
+      "id": "rutor-rutracker-domains",
       "kind": "domains",
       "name_ru": "Rutor / RuTracker",
       "file": "srs/rutor-rutracker-domains.srs",
@@ -913,7 +913,7 @@
       "default_on": false
     },
     {
-      "id": "spotify",
+      "id": "spotify-domains",
       "kind": "domains",
       "name_ru": "Spotify",
       "file": "srs/spotify-domains.srs",
@@ -924,7 +924,7 @@
       "default_on": false
     },
     {
-      "id": "telegram",
+      "id": "telegram-domains",
       "kind": "domains",
       "name_ru": "Telegram",
       "file": "srs/tg-domains.srs",
@@ -935,7 +935,7 @@
       "default_on": false
     },
     {
-      "id": "whatsapp",
+      "id": "whatsapp-domains",
       "kind": "domains",
       "name_ru": "WhatsApp",
       "file": "srs/wa-domains.srs",
@@ -946,7 +946,7 @@
       "default_on": false
     },
     {
-      "id": "x",
+      "id": "x-domains",
       "kind": "domains",
       "name_ru": "X",
       "file": "srs/x-domains.srs",
@@ -957,7 +957,7 @@
       "default_on": false
     },
     {
-      "id": "yalbaka",
+      "id": "yalbaka-domains",
       "kind": "domains",
       "name_ru": "Yalbaka",
       "file": "srs/yalbaka-domains.srs",
@@ -968,7 +968,7 @@
       "default_on": false
     },
     {
-      "id": "youtube",
+      "id": "youtube-domains",
       "kind": "domains",
       "name_ru": "YouTube",
       "file": "srs/yt-domains.srs",
